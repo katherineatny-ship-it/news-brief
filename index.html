@@ -94,6 +94,10 @@ header{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px s
 .thread div{margin:4px 0}
 .thread b{cursor:pointer;color:var(--legal)}
 
+.live a{display:block;text-decoration:none;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin:0 0 8px}
+.live a b{font-weight:600;line-height:1.5;display:block}
+.live a small{color:var(--sub);font-size:12.5px}
+.live .upd{font-size:13px;color:var(--sub);margin:14px 0 8px}
 .empty{text-align:center;color:var(--sub);padding:48px 12px}
 .daygroup{font-weight:700;color:var(--sub);font-size:14px;margin:18px 0 8px}
 mark{background:#ffe08a;color:#000;border-radius:3px;padding:0 1px}
@@ -126,6 +130,7 @@ mark{background:#ffe08a;color:#000;border-radius:3px;padding:0 1px}
     <nav class="tabs" id="tabs">
       <button class="tab on" data-v="general">重要新聞</button>
       <button class="tab" data-v="legal">法律專業</button>
+      <button class="tab" data-v="live">即時快訊</button>
       <button class="tab" data-v="star">收藏</button>
     </nav>
   </div>
@@ -243,6 +248,7 @@ function highlight(html, q){
 async function render(){
   const main = $("#main");
   if(view === "star") return renderStars();
+  if(view === "live") return renderLive();
   if(!date){ main.innerHTML = `<div class="empty">還沒有晨報。第一份會在排程執行後出現。</div>`; return; }
   const day = await getDay(date);
   const b = day?.[view];
@@ -271,6 +277,28 @@ async function renderStars(){
     if(it) h += cardHTML(d, kind, it, {showDate:true});
   }
   $("#main").innerHTML = h;
+}
+
+// ---------- live ----------
+let liveRegion = "national";
+const REGIONS = {national:"全國", taitung:"台東", taipei:"台北"};
+function ago(iso){
+  const m = Math.round((Date.now() - new Date(iso)) / 60000);
+  if(m < 60) return `${Math.max(m,1)} 分鐘前`;
+  if(m < 1440) return `${Math.floor(m/60)} 小時前`;
+  return iso.slice(5,10).replace("-","/") + " " + iso.slice(11,16);
+}
+async function renderLive(){
+  const main = $("#main");
+  let j;
+  try{ j = await getJSON("data/latest.json"); }
+  catch(e){ main.innerHTML = `<div class="empty">即時快訊尚未產生，第一次更新後就會出現。</div>`; return; }
+  const list = j.groups?.[liveRegion] || [];
+  main.innerHTML = `<div class="live">
+    <div class="chips" style="margin-top:14px">${Object.entries(REGIONS).map(([k,v])=>`<button class="chip ${k===liveRegion?"on":""}" data-region="${k}">${v}</button>`).join("")}</div>
+    <div class="upd">每小時自動更新・最後更新 ${esc(ago(j.updated))}・標題未經查核，點入看原文</div>
+    ${list.map(x=>`<a href="${esc(x.url)}" target="_blank" rel="noopener"><b>${esc(x.title)}</b><small>${esc(x.source)}・${esc(ago(x.time))}</small></a>`).join("") || `<div class="empty">目前沒有新聞。</div>`}
+  </div>`;
 }
 
 // ---------- search ----------
@@ -322,6 +350,8 @@ $("#tabs").addEventListener("click", e => {
   view = b.dataset.v; tagFilter = null; editing = null; render(); scrollTo(0,0);
 });
 document.addEventListener("click", async e => {
+  const rg = e.target.closest("[data-region]");
+  if(rg){ liveRegion = rg.dataset.region; renderLive(); return; }
   const nav = e.target.closest("[data-nav]");
   if(nav){ const ds = allDates(), i = ds.indexOf(date); date = ds[nav.dataset.nav==="older"?i+1:i-1]; tagFilter=null; render(); scrollTo(0,0); return; }
   if(e.target.closest("#pickDay")){ renderDayList(); openSheet("#sheetDays"); return; }
