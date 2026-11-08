@@ -4,10 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="每日晨報">
+<meta name="apple-mobile-web-app-title" content="凱瑟琳的每日晨報">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+<link rel="manifest" href="manifest.webmanifest">
 <meta name="theme-color" content="#f6f3ee" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#16181c" media="(prefers-color-scheme: dark)">
-<title>每日晨報</title>
+<title>凱瑟琳的每日晨報</title>
 <style>
 :root{
   --bg:#f6f3ee; --card:#ffffff; --ink:#1d1f23; --sub:#5d6168; --line:#e4dfd6;
@@ -33,7 +36,8 @@ a{color:var(--legal)}
 header{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px solid var(--line);
   padding-top:env(safe-area-inset-top)}
 .top{display:flex;align-items:center;gap:8px;padding:10px 0 6px}
-.brand{font-weight:800;font-size:19px;letter-spacing:.04em;flex:1}
+.brand{font-weight:800;font-size:18px;letter-spacing:.03em;flex:1;display:flex;align-items:center;gap:8px;min-width:0;white-space:nowrap}
+.logo{width:30px;height:30px;border-radius:8px;flex:none}
 .iconbtn{border:0;background:var(--chip);border-radius:999px;width:38px;height:38px;display:grid;place-items:center;cursor:pointer}
 .iconbtn svg{width:19px;height:19px}
 .tabs{display:flex;gap:6px;padding:4px 0 10px;overflow-x:auto;scrollbar-width:none}
@@ -154,7 +158,7 @@ mark{background:#ffe08a;color:#000;border-radius:3px;padding:0 1px}
 <header>
   <div class="wrap">
     <div class="top">
-      <div class="brand">每日晨報</div>
+      <div class="brand"><img src="icons/icon-180.png" alt="" class="logo">凱瑟琳的每日晨報</div>
       <button class="iconbtn" id="btnSearch" aria-label="搜尋"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>
       <button class="iconbtn" id="btnSet" aria-label="設定"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
     </div>
