@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="每日晨報">
+<meta name="theme-color" content="#f6f3ee" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16181c" media="(prefers-color-scheme: dark)">
+<title>每日晨報</title>
+<style>
+:root{
+  --bg:#f6f3ee; --card:#ffffff; --ink:#1d1f23; --sub:#5d6168; --line:#e4dfd6;
+  --accent:#9b3d2e; --accent-soft:#f3e3df; --legal:#2d4f7c; --legal-soft:#e2e9f3;
+  --chip:#ece7de; --star:#c98a12; --note:#fff8e6; --shadow:0 1px 2px rgba(0,0,0,.05);
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#16181c; --card:#1f2227; --ink:#ecebe8; --sub:#a3a6ad; --line:#30343a;
+    --accent:#e08a74; --accent-soft:#3a2622; --legal:#8fb2e3; --legal-soft:#1f2b3b;
+    --chip:#2a2e34; --star:#f0b43c; --note:#2b2719; --shadow:none;
+  }
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink)}
+body{font:16px/1.7 -apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;
+  -webkit-text-size-adjust:100%;padding-bottom:env(safe-area-inset-bottom)}
+button,input,textarea,select{font:inherit;color:inherit}
+a{color:var(--legal)}
+.wrap{max-width:720px;margin:0 auto;padding:0 16px}
+
+/* header */
+header{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px solid var(--line);
+  padding-top:env(safe-area-inset-top)}
+.top{display:flex;align-items:center;gap:8px;padding:10px 0 6px}
+.brand{font-weight:800;font-size:19px;letter-spacing:.04em;flex:1}
+.iconbtn{border:0;background:var(--chip);border-radius:999px;width:38px;height:38px;display:grid;place-items:center;cursor:pointer}
+.iconbtn svg{width:19px;height:19px}
+.tabs{display:flex;gap:6px;padding:4px 0 10px;overflow-x:auto;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{border:0;background:var(--chip);padding:7px 14px;border-radius:999px;white-space:nowrap;cursor:pointer;font-size:15px}
+.tab.on{background:var(--ink);color:var(--bg);font-weight:700}
+
+/* date bar */
+.datebar{display:flex;align-items:center;gap:8px;margin:14px 0 6px}
+.datebar .d{flex:1;text-align:center;font-weight:700;font-size:17px;border:0;background:none;cursor:pointer;padding:6px}
+.datebar .d small{display:block;font-weight:400;color:var(--sub);font-size:13px}
+.navbtn{border:1px solid var(--line);background:var(--card);border-radius:12px;width:44px;height:40px;cursor:pointer;font-size:18px}
+.navbtn:disabled{opacity:.3}
+
+.focus{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin:8px 0 14px;box-shadow:var(--shadow)}
+.focus .lbl{font-size:12px;font-weight:700;letter-spacing:.08em;color:var(--sub)}
+.focus p{margin:4px 0 0}
+.scope{font-size:13px;color:var(--sub);margin-top:6px}
+
+/* filter */
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0 12px}
+.chip{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:3px 11px;font-size:13px;cursor:pointer}
+.chip.on{background:var(--accent);border-color:var(--accent);color:#fff}
+
+/* cards */
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;margin:0 0 14px;overflow:hidden;box-shadow:var(--shadow)}
+.card .hd{display:flex;gap:10px;padding:14px 14px 4px;align-items:flex-start}
+.rank{flex:none;width:28px;height:28px;border-radius:8px;background:var(--accent-soft);color:var(--accent);
+  display:grid;place-items:center;font-weight:800;font-size:15px;margin-top:2px}
+.card.legal .rank{background:var(--legal-soft);color:var(--legal)}
+.card h3{margin:0;font-size:17px;line-height:1.5;flex:1}
+.star{flex:none;border:0;background:none;cursor:pointer;padding:2px;color:var(--sub)}
+.star svg{width:22px;height:22px}
+.star.on{color:var(--star)}
+.meta{padding:0 14px;font-size:12.5px;color:var(--sub)}
+.tags{display:flex;gap:5px;flex-wrap:wrap;padding:6px 14px 0}
+.tag{font-size:12px;background:var(--chip);border-radius:6px;padding:1px 7px;color:var(--sub);border:0;cursor:pointer}
+.fig{margin:10px 0 0}
+.fig img{display:block;width:100%;max-height:260px;object-fit:cover;background:var(--chip)}
+.fig figcaption{font-size:12px;color:var(--sub);padding:4px 14px 0}
+.sec{padding:10px 14px 0}
+.sec .k{font-size:12px;font-weight:700;letter-spacing:.06em;color:var(--accent);margin-bottom:2px}
+.card.legal .sec .k{color:var(--legal)}
+.sec p{margin:0}
+.sec.watch{background:transparent}
+.src{padding:10px 14px 0;display:flex;flex-wrap:wrap;gap:6px}
+.src a{font-size:13px;text-decoration:none;background:var(--chip);color:var(--ink);padding:3px 10px;border-radius:999px}
+.noimg{font-size:12px;color:var(--sub);padding:8px 14px 0}
+.foot{display:flex;gap:8px;padding:12px 14px 14px;flex-wrap:wrap}
+.lnk{border:1px solid var(--line);background:none;border-radius:10px;padding:5px 11px;font-size:13px;cursor:pointer}
+.note{margin:0 14px 14px;background:var(--note);border-radius:10px;padding:8px 10px;font-size:14px;white-space:pre-wrap}
+.note-edit{margin:0 14px 14px}
+.note-edit textarea{width:100%;min-height:90px;border:1px solid var(--line);border-radius:10px;padding:8px;background:var(--bg)}
+.note-edit .row{display:flex;gap:8px;justify-content:flex-end;margin-top:6px}
+.btn{border:0;background:var(--ink);color:var(--bg);border-radius:10px;padding:6px 14px;cursor:pointer}
+.btn.ghost{background:var(--chip);color:var(--ink)}
+.thread{margin:0 14px 14px;border-left:3px solid var(--legal);padding-left:10px;font-size:14px}
+.thread div{margin:4px 0}
+.thread b{cursor:pointer;color:var(--legal)}
+
+.empty{text-align:center;color:var(--sub);padding:48px 12px}
+.daygroup{font-weight:700;color:var(--sub);font-size:14px;margin:18px 0 8px}
+mark{background:#ffe08a;color:#000;border-radius:3px;padding:0 1px}
+
+/* sheets */
+.sheet{position:fixed;inset:0;z-index:30;display:none;background:rgba(0,0,0,.4)}
+.sheet.show{display:block}
+.panel{position:absolute;left:0;right:0;bottom:0;max-height:85vh;overflow:auto;background:var(--bg);
+  border-radius:18px 18px 0 0;padding:16px 16px calc(20px + env(safe-area-inset-bottom))}
+.panel h4{margin:0 0 10px;font-size:17px}
+.search{width:100%;border:1px solid var(--line);background:var(--card);border-radius:12px;padding:10px 12px;font-size:16px}
+.daylist button{display:flex;justify-content:space-between;width:100%;border:0;border-bottom:1px solid var(--line);background:none;padding:12px 2px;cursor:pointer;text-align:left}
+.daylist small{color:var(--sub)}
+.setrow{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}
+.setrow small{display:block;color:var(--sub);font-size:13px}
+.switch{appearance:none;width:48px;height:28px;border-radius:999px;background:var(--line);position:relative;cursor:pointer;flex:none;transition:.2s}
+.switch:checked{background:var(--legal)}
+.switch::after{content:"";position:absolute;top:3px;left:3px;width:22px;height:22px;border-radius:50%;background:#fff;transition:.2s}
+.switch:checked::after{left:23px}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="top">
+      <div class="brand">每日晨報</div>
+      <button class="iconbtn" id="btnSearch" aria-label="搜尋"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>
+      <button class="iconbtn" id="btnSet" aria-label="設定"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+    </div>
+    <nav class="tabs" id="tabs">
+      <button class="tab on" data-v="general">重要新聞</button>
+      <button class="tab" data-v="legal">法律專業</button>
+      <button class="tab" data-v="star">收藏</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap" id="main"><div class="empty">載入中…</div></main>
+
+<div class="sheet" id="sheetSearch"><div class="panel">
+  <h4>搜尋所有晨報</h4>
+  <input class="search" id="q" type="search" placeholder="關鍵字，例如：羈押、都更、台積電" enterkeyhint="search">
+  <div class="chips" id="scopeChips" style="margin-top:10px">
+    <button class="chip on" data-s="all">全部</button>
+    <button class="chip" data-s="general">重要新聞</button>
+    <button class="chip" data-s="legal">法律專業</button>
+  </div>
+  <div id="results"></div>
+</div></div>
+
+<div class="sheet" id="sheetDays"><div class="panel">
+  <h4>選擇日期</h4>
+  <div class="daylist" id="daylist"></div>
+</div></div>
+
+<div class="sheet" id="sheetSet"><div class="panel">
+  <h4>設定</h4>
+  <div class="setrow"><div>同一案件串聯<small>在卡片下方顯示同案的前後進展</small></div><input type="checkbox" class="switch" id="optThread"></div>
+  <div class="setrow"><div>顯示圖片<small>關閉可加快載入</small></div><input type="checkbox" class="switch" id="optImg"></div>
+  <div class="setrow"><div>匯出收藏與筆記<small>備份成檔案，換手機時可匯入</small></div><button class="btn ghost" id="btnExport">匯出</button></div>
+  <div class="setrow"><div>匯入收藏與筆記</div><label class="btn ghost">匯入<input type="file" id="fileImport" accept="application/json" hidden></label></div>
+  <p class="scope">收藏與筆記只存在這台裝置的瀏覽器，不會上傳。</p>
+</div></div>
+
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const WK = "日一二三四五六";
+const LABELS = {
+  general:{name:"重要新聞", a:"事件與最新進展", b:"重要性與影響", c:"後續觀察"},
+  legal:{name:"法律專業", a:"事件與最新進展", b:"法律焦點", c:"後續觀察"}
+};
+
+// ---------- storage (safe) ----------
+const store = {
+  get(k, d){ try{ const v = localStorage.getItem("nb:"+k); return v==null ? d : JSON.parse(v);}catch(e){ return d; } },
+  set(k, v){ try{ localStorage.setItem("nb:"+k, JSON.stringify(v)); }catch(e){} }
+};
+let stars = store.get("stars", {});   // id -> {date, kind, title, at}
+let notes = store.get("notes", {});   // id -> text
+let opts = store.get("opts", {thread:false, img:true});
+
+// ---------- state ----------
+let manifest = null;
+const months = {};       // "2026-11" -> {days:{date:{general,legal}}}
+let view = "general", date = null, tagFilter = null, editing = null;
+
+async function getJSON(u){
+  const r = await fetch(u + (u.includes("?")?"&":"?") + "t=" + Date.now(), {cache:"no-store"});
+  if(!r.ok) throw new Error(r.status);
+  return r.json();
+}
+async function loadMonth(m){
+  if(!months[m]) months[m] = await getJSON(`data/${m}.json`);
+  return months[m];
+}
+async function loadAll(){ await Promise.all(manifest.months.map(loadMonth)); }
+function allDates(){ return manifest.dates.slice().sort().reverse(); }
+async function getDay(d){ const mo = await loadMonth(d.slice(0,7)); return mo.days[d]; }
+
+function fmtDate(d){
+  const [y,m,dd] = d.split("-").map(Number);
+  const w = new Date(Date.UTC(y,m-1,dd)).getUTCDay();
+  return `${y}年${m}月${dd}日（${WK[w]}）`;
+}
+const itemId = (d, kind, it) => `${d}|${kind}|${it.rank}`;
+
+// ---------- render: one card ----------
+function cardHTML(d, kind, it, opt={}){
+  const L = LABELS[kind], id = itemId(d, kind, it), hl = opt.hl;
+  const H = s => hl ? highlight(esc(s), hl) : esc(s);
+  const on = !!stars[id];
+  let h = `<article class="card ${kind}" data-id="${esc(id)}">
+    <div class="hd"><div class="rank">${esc(it.rank)}</div><h3>${H(it.title)}</h3>
+    <button class="star ${on?"on":""}" data-act="star" aria-label="收藏"><svg viewBox="0 0 24 24" fill="${on?"currentColor":"none"}" stroke="currentColor" stroke-width="1.8"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3 6.4 20.2l1.1-6.2L3 9.6l6.2-.9z"/></svg></button></div>`;
+  if(opt.showDate) h += `<div class="meta">${fmtDate(d)}・${L.name}</div>`;
+  if(it.tags?.length) h += `<div class="tags">${it.tags.map(t=>`<button class="tag" data-act="tag" data-t="${esc(t)}">#${esc(t)}</button>`).join("")}</div>`;
+  if(opts.img && it.image?.url){
+    h += `<figure class="fig"><img loading="lazy" src="${esc(it.image.url)}" alt="${esc(it.image.caption||it.title)}" onerror="this.parentNode.innerHTML='<figcaption>圖片無法載入：${esc(it.image.credit||"")}</figcaption>'">
+      <figcaption>${esc(it.image.caption||"")}${it.image.caption?"｜":""}圖源：${esc(it.image.credit||"未標示")}</figcaption></figure>`;
+  } else if(opts.img && it.imageNote){
+    h += `<div class="noimg">📷 ${esc(it.imageNote)}</div>`;
+  }
+  h += `<div class="sec"><div class="k">${L.a}</div><p>${H(it.progress)}</p></div>`;
+  if(it.analysis) h += `<div class="sec"><div class="k">${L.b}</div><p>${H(it.analysis)}</p></div>`;
+  if(it.watch) h += `<div class="sec"><div class="k">${L.c}</div><p>${H(it.watch)}</p></div>`;
+  if(it.sources?.length) h += `<div class="src">${it.sources.map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name||"來源")} ↗</a>`).join("")}</div>`;
+  h += `<div class="foot"><button class="lnk" data-act="note">${notes[id]?"編輯筆記":"＋ 筆記"}</button>`;
+  if(opts.thread && it.thread) h += `<button class="lnk" data-act="thread">同案進展</button>`;
+  h += `</div>`;
+  if(editing === id){
+    h += `<div class="note-edit"><textarea id="noteBox" placeholder="寫下想法、可引用的案件或待查事項…">${esc(notes[id]||"")}</textarea>
+      <div class="row"><button class="btn ghost" data-act="cancel">取消</button><button class="btn" data-act="save">儲存</button></div></div>`;
+  } else if(notes[id]){
+    h += `<div class="note">${esc(notes[id])}</div>`;
+  }
+  h += `<div class="threadbox"></div></article>`;
+  return h;
+}
+function highlight(html, q){
+  const t = q.trim(); if(!t) return html;
+  const re = new RegExp(t.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"), "gi");
+  return html.replace(re, m => `<mark>${m}</mark>`);
+}
+
+// ---------- render: views ----------
+async function render(){
+  const main = $("#main");
+  if(view === "star") return renderStars();
+  if(!date){ main.innerHTML = `<div class="empty">還沒有晨報。第一份會在排程執行後出現。</div>`; return; }
+  const day = await getDay(date);
+  const b = day?.[view];
+  const ds = allDates(), i = ds.indexOf(date);
+  let h = `<div class="datebar">
+    <button class="navbtn" data-nav="older" ${i>=ds.length-1?"disabled":""} aria-label="前一天">‹</button>
+    <button class="d" id="pickDay">${fmtDate(date)}<small>${i===0?"最新一期・":""}點此選擇日期</small></button>
+    <button class="navbtn" data-nav="newer" ${i<=0?"disabled":""} aria-label="後一天">›</button></div>`;
+  if(!b){ main.innerHTML = h + `<div class="empty">這一天沒有${LABELS[view].name}。</div>`; return; }
+  h += `<div class="focus"><div class="lbl">今日焦點</div><p>${esc(b.focus)}</p>${b.scope?`<div class="scope">${esc(b.scope)}</div>`:""}</div>`;
+  const tags = [...new Set(b.items.flatMap(x=>x.tags||[]))];
+  if(tags.length) h += `<div class="chips">${["全部",...tags].map(t=>`<button class="chip ${(t==="全部"&&!tagFilter)||t===tagFilter?"on":""}" data-act="filter" data-t="${esc(t)}">${esc(t)}</button>`).join("")}</div>`;
+  const items = b.items.filter(x => !tagFilter || (x.tags||[]).includes(tagFilter));
+  h += items.map(it => cardHTML(date, view, it)).join("") || `<div class="empty">這一天沒有「${esc(tagFilter)}」的新聞。</div>`;
+  if(b.note) h += `<p class="scope">${esc(b.note)}</p>`;
+  main.innerHTML = h;
+}
+async function renderStars(){
+  const ids = Object.keys(stars).sort().reverse();
+  if(!ids.length){ $("#main").innerHTML = `<div class="empty">還沒有收藏。點卡片右上角的星號即可收藏。</div>`; return; }
+  await Promise.all([...new Set(ids.map(id=>id.slice(0,7)))].map(m=>loadMonth(m).catch(()=>null)));
+  let h = `<div class="daygroup">共 ${ids.length} 則收藏</div>`;
+  for(const id of ids){
+    const [d, kind, rank] = id.split("|");
+    const it = months[d.slice(0,7)]?.days?.[d]?.[kind]?.items?.find(x=>String(x.rank)===rank);
+    if(it) h += cardHTML(d, kind, it, {showDate:true});
+  }
+  $("#main").innerHTML = h;
+}
+
+// ---------- search ----------
+let searchScope = "all", searchTimer;
+async function doSearch(){
+  const q = $("#q").value.trim(), box = $("#results");
+  if(!q){ box.innerHTML = ""; return; }
+  box.innerHTML = `<div class="empty">搜尋中…</div>`;
+  await loadAll();
+  const ql = q.toLowerCase(), hits = [];
+  for(const d of allDates()){
+    const day = months[d.slice(0,7)].days[d];
+    for(const kind of ["general","legal"]){
+      if(searchScope!=="all" && searchScope!==kind) continue;
+      for(const it of day?.[kind]?.items || []){
+        const text = [it.title,it.progress,it.analysis,it.watch,(it.tags||[]).join(" "),notes[itemId(d,kind,it)]||""].join(" ").toLowerCase();
+        if(text.includes(ql)) hits.push([d,kind,it]);
+      }
+    }
+  }
+  box.innerHTML = hits.length
+    ? `<div class="daygroup">找到 ${hits.length} 則</div>` + hits.map(([d,k,it])=>cardHTML(d,k,it,{showDate:true,hl:q})).join("")
+    : `<div class="empty">找不到「${esc(q)}」</div>`;
+}
+
+// ---------- thread ----------
+async function showThread(card, id){
+  const [d, kind, rank] = id.split("|");
+  const it = (await getDay(d))[kind].items.find(x=>String(x.rank)===rank);
+  const box = card.querySelector(".threadbox");
+  if(box.innerHTML){ box.innerHTML = ""; return; }
+  await loadAll();
+  const list = [];
+  for(const dd of allDates().slice().reverse()){
+    for(const k of ["general","legal"]) for(const x of months[dd.slice(0,7)].days[dd]?.[k]?.items||[])
+      if(x.thread === it.thread) list.push([dd,k,x]);
+  }
+  box.innerHTML = `<div class="thread">${list.map(([dd,k,x])=>`<div>${dd.slice(5).replace("-","/")}　${dd===d&&k===kind&&x===it?`<span>${esc(x.title)}（本則）</span>`:`<b data-go="${dd}|${k}">${esc(x.title)}</b>`}</div>`).join("")}</div>`;
+}
+
+// ---------- events ----------
+function openSheet(id){ $(id).classList.add("show"); document.body.style.overflow="hidden"; }
+function closeSheets(){ document.querySelectorAll(".sheet").forEach(s=>s.classList.remove("show")); document.body.style.overflow=""; }
+document.querySelectorAll(".sheet").forEach(s => s.addEventListener("click", e => { if(e.target===s) closeSheets(); }));
+
+$("#tabs").addEventListener("click", e => {
+  const b = e.target.closest(".tab"); if(!b) return;
+  document.querySelectorAll(".tab").forEach(x=>x.classList.toggle("on", x===b));
+  view = b.dataset.v; tagFilter = null; editing = null; render(); scrollTo(0,0);
+});
+document.addEventListener("click", async e => {
+  const nav = e.target.closest("[data-nav]");
+  if(nav){ const ds = allDates(), i = ds.indexOf(date); date = ds[nav.dataset.nav==="older"?i+1:i-1]; tagFilter=null; render(); scrollTo(0,0); return; }
+  if(e.target.closest("#pickDay")){ renderDayList(); openSheet("#sheetDays"); return; }
+  const go = e.target.closest("[data-go],[data-day]");
+  if(go){
+    const [d,k] = (go.dataset.go||go.dataset.day).split("|");
+    date = d; if(k){ view = k; document.querySelectorAll(".tab").forEach(x=>x.classList.toggle("on", x.dataset.v===k)); }
+    tagFilter = null; closeSheets(); render(); scrollTo(0,0); return;
+  }
+  const act = e.target.closest("[data-act]"); if(!act) return;
+  const a = act.dataset.act, card = act.closest(".card"), id = card?.dataset.id;
+  if(a==="filter"){ tagFilter = act.dataset.t==="全部" ? null : act.dataset.t; render(); }
+  else if(a==="tag"){ $("#q").value = act.dataset.t; openSheet("#sheetSearch"); doSearch(); }
+  else if(a==="star"){
+    if(stars[id]) delete stars[id];
+    else { const [d,k] = id.split("|"); stars[id] = {at:Date.now(), title:card.querySelector("h3").textContent, kind:k, date:d}; }
+    store.set("stars", stars); rerender(card, id);
+  }
+  else if(a==="note"){ editing = id; rerender(card, id); setTimeout(()=>$("#noteBox")?.focus(), 30); }
+  else if(a==="cancel"){ editing = null; rerender(card, id); }
+  else if(a==="save"){ const v = $("#noteBox").value.trim(); if(v) notes[id]=v; else delete notes[id]; store.set("notes", notes); editing=null; rerender(card, id); }
+  else if(a==="thread"){ showThread(card, id); }
+});
+async function rerender(card, id){
+  const [d, kind, rank] = id.split("|");
+  const it = (await getDay(d))[kind].items.find(x=>String(x.rank)===rank);
+  const inList = !!card.closest("#results") || view==="star";
+  const hl = card.closest("#results") ? $("#q").value : null;
+  const tmp = document.createElement("div");
+  tmp.innerHTML = cardHTML(d, kind, it, {showDate:inList, hl});
+  card.replaceWith(tmp.firstElementChild);
+  if(view==="star" && !stars[id] && !card.closest("#results")) renderStars();
+}
+function renderDayList(){
+  $("#daylist").innerHTML = allDates().map(d=>{
+    const mo = months[d.slice(0,7)]; const day = mo?.days?.[d];
+    const n = (day?.general?.items?.length||0) + (day?.legal?.items?.length||0);
+    return `<button data-day="${d}"><span>${fmtDate(d)}</span><small>${day?n+" 則":""}</small></button>`;
+  }).join("");
+}
+$("#btnSearch").onclick = () => { openSheet("#sheetSearch"); setTimeout(()=>$("#q").focus(), 50); };
+$("#q").addEventListener("input", () => { clearTimeout(searchTimer); searchTimer = setTimeout(doSearch, 250); });
+$("#scopeChips").addEventListener("click", e => {
+  const c = e.target.closest(".chip"); if(!c) return;
+  searchScope = c.dataset.s; document.querySelectorAll("#scopeChips .chip").forEach(x=>x.classList.toggle("on", x===c)); doSearch();
+});
+$("#btnSet").onclick = () => openSheet("#sheetSet");
+$("#optThread").checked = opts.thread; $("#optImg").checked = opts.img;
+$("#optThread").onchange = e => { opts.thread = e.target.checked; store.set("opts", opts); render(); };
+$("#optImg").onchange = e => { opts.img = e.target.checked; store.set("opts", opts); render(); };
+$("#btnExport").onclick = () => {
+  const blob = new Blob([JSON.stringify({stars, notes, exported:new Date().toISOString()}, null, 1)], {type:"application/json"});
+  const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = "晨報收藏筆記.json"; a.click();
+};
+$("#fileImport").onchange = async e => {
+  try{ const j = JSON.parse(await e.target.files[0].text());
+    stars = {...stars, ...(j.stars||{})}; notes = {...notes, ...(j.notes||{})};
+    store.set("stars", stars); store.set("notes", notes); alert("已匯入"); render();
+  }catch(err){ alert("檔案格式不正確"); }
+};
+
+// ---------- boot ----------
+(async () => {
+  try{
+    manifest = await getJSON("data/manifest.json");
+    date = allDates()[0] || null;
+    if(date) await loadMonth(date.slice(0,7));
+    render();
+  }catch(e){
+    $("#main").innerHTML = `<div class="empty">還沒有晨報資料，或暫時無法連線。</div>`;
+  }
+})();
+</script>
+</body>
+</html>
