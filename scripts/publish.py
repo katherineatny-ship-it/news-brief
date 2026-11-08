@@ -9,21 +9,25 @@
   "general": {"focus": "...", "scope": "...", "items": [ITEM, ...], "note": "..."},
   "legal":   {"focus": "...", "scope": "...", "items": [ITEM, ...]}
 }
-ITEM：
+ITEM（格式細節見 TASK.md）：
 {
-  "rank": 1, "title": "...",
-  "progress": "事件與最新進展", "analysis": "重要性與影響／法律焦點", "watch": "後續觀察",
-  "tags": ["刑事", "國安"], "thread": "kao-chin-su-mei-case",   # thread 選填，同案用同一個代號
-  "sources": [{"name": "中央社", "url": "https://..."}],
-  "image": {"url": "https://...", "credit": "中央社", "caption": "..."},  # 選填
-  "imageNote": "無可靠圖片"                                           # 無圖時說明
+  "rank": 1, "title": "...", "status": "偵查中・羈押禁見",
+  "brief": "一句話重點，可用 **粗體**",
+  "facts": ["重點 1", "重點 2"],
+  "why": ["影響對象｜說明"],                  # 重要新聞用
+  "issues": ["爭點名｜說明"], "ruling": [...],  # 法律專業用（至少一個）
+  "laws": [{"name": "民法 §195", "url": "https://law.moj.gov.tw/..."}],
+  "practice": ["對象｜提醒"],                   # 法律專業，選填
+  "watch": ["具體後續事件或指標"],
+  "tags": [...], "thread": "選填", "sources": [{"name": "...", "url": "https://..."}],
+  "image": {"url": "https://...", "credit": "...", "caption": "..."}   # 選填
 }
 """
 import json, sys, re, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
-REQ = ["rank", "title", "progress"]
+REQ = ["rank", "title", "brief", "facts", "watch"]
 
 
 def fail(msg):
@@ -48,6 +52,13 @@ def check(day):
             for f in REQ:
                 if not it.get(f):
                     fail(f"{k} 第 {i} 則缺少 {f}")
+            for f in ("facts", "why", "issues", "ruling", "practice", "watch"):
+                if f in it and not isinstance(it[f], list):
+                    fail(f"{k} 第 {i} 則 {f} 必須是清單")
+            if k == "general" and not it.get("why"):
+                fail(f"{k} 第 {i} 則缺少 why")
+            if k == "legal" and not (it.get("issues") or it.get("ruling")):
+                fail(f"{k} 第 {i} 則缺少 issues 或 ruling")
             for s in it.get("sources", []):
                 if not str(s.get("url", "")).startswith("http"):
                     fail(f"{k} 第 {i} 則來源網址不正確")

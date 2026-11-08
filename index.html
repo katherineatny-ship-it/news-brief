@@ -98,6 +98,37 @@ header{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px s
 .live a b{font-weight:600;line-height:1.5;display:block}
 .live a small{color:var(--sub);font-size:12.5px}
 .live .upd{font-size:13px;color:var(--sub);margin:14px 0 8px}
+.card{scroll-margin-top:120px}
+.status{font-size:12px;font-weight:700;border-radius:6px;padding:1px 8px;background:var(--ink);color:var(--bg)}
+.brief{margin:10px 14px 0;padding:8px 12px;border-left:4px solid var(--accent);background:var(--accent-soft);border-radius:0 10px 10px 0;font-weight:650;line-height:1.6}
+.card.legal .brief{border-color:var(--legal);background:var(--legal-soft)}
+.sec ul,.practice ul{margin:0;padding-left:1.15em}
+.sec li,.practice li{margin:3px 0;line-height:1.65}
+.sec li::marker{color:var(--sub)}
+.lb{color:var(--ink);font-weight:700;margin-right:2px}
+.lb::after{content:"："}
+strong{font-weight:750}
+.sec .k{font-size:12.5px}
+.sec.watch .k{color:var(--sub)!important}
+.sec.watch li{color:var(--sub)}
+.laws{display:flex;flex-wrap:wrap;gap:6px;padding:10px 14px 0}
+.laws a,.laws span{font-size:13px;border:1px solid var(--legal);color:var(--legal);border-radius:8px;padding:1px 9px;text-decoration:none}
+.practice{margin:10px 14px 0;background:var(--note);border-radius:10px;padding:8px 12px}
+.practice .k{font-size:12.5px;font-weight:700;color:var(--star);margin-bottom:2px}
+details.src{display:block;padding:10px 14px 0}
+details.src summary{font-size:13px;color:var(--sub);cursor:pointer;list-style:none}
+details.src summary::-webkit-details-marker{display:none}
+details.src summary::before{content:"▸ "}
+details.src[open] summary::before{content:"▾ "}
+details.src a{display:inline-block;margin:6px 6px 0 0;font-size:13px;text-decoration:none;background:var(--chip);color:var(--ink);padding:3px 10px;border-radius:999px}
+.fig img{max-height:200px}
+.quick{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin:0 0 14px}
+.quick .lbl{font-size:12px;font-weight:700;letter-spacing:.08em;color:var(--sub);margin-bottom:4px}
+.quick ol{margin:0;padding-left:1.3em}
+.quick li{padding:6px 0;border-bottom:1px solid var(--line);cursor:pointer}
+.quick li:last-child{border-bottom:0}
+.quick li b{display:block;font-size:15px;line-height:1.5}
+.quick li span{display:block;font-size:13.5px;color:var(--sub);line-height:1.55}
 .empty{text-align:center;color:var(--sub);padding:48px 12px}
 .daygroup{font-weight:700;color:var(--sub);font-size:14px;margin:18px 0 8px}
 mark{background:#ffe08a;color:#000;border-radius:3px;padding:0 1px}
@@ -215,17 +246,34 @@ function cardHTML(d, kind, it, opt={}){
     <div class="hd"><div class="rank">${esc(it.rank)}</div><h3>${H(it.title)}</h3>
     <button class="star ${on?"on":""}" data-act="star" aria-label="收藏"><svg viewBox="0 0 24 24" fill="${on?"currentColor":"none"}" stroke="currentColor" stroke-width="1.8"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3 6.4 20.2l1.1-6.2L3 9.6l6.2-.9z"/></svg></button></div>`;
   if(opt.showDate) h += `<div class="meta">${fmtDate(d)}・${L.name}</div>`;
-  if(it.tags?.length) h += `<div class="tags">${it.tags.map(t=>`<button class="tag" data-act="tag" data-t="${esc(t)}">#${esc(t)}</button>`).join("")}</div>`;
-  if(opts.img && it.image?.url){
-    h += `<figure class="fig"><img loading="lazy" src="${esc(it.image.url)}" alt="${esc(it.image.caption||it.title)}" onerror="this.parentNode.innerHTML='<figcaption>圖片無法載入：${esc(it.image.credit||"")}</figcaption>'">
-      <figcaption>${esc(it.image.caption||"")}${it.image.caption?"｜":""}圖源：${esc(it.image.credit||"未標示")}</figcaption></figure>`;
-  } else if(opts.img && it.imageNote){
-    h += `<div class="noimg">📷 ${esc(it.imageNote)}</div>`;
+  const R = x => rich(x, hl);
+  const UL = arr => `<ul>${[].concat(arr).map(x=>`<li>${R(x)}</li>`).join("")}</ul>`;
+  const SEC = (k, body, cls="") => `<div class="sec ${cls}"><div class="k">${k}</div>${body}</div>`;
+  if(it.status || it.tags?.length){
+    h += `<div class="tags">${it.status?`<span class="status">${esc(it.status)}</span>`:""}${(it.tags||[]).map(t=>`<button class="tag" data-act="tag" data-t="${esc(t)}">#${esc(t)}</button>`).join("")}</div>`;
   }
-  h += `<div class="sec"><div class="k">${L.a}</div><p>${H(it.progress)}</p></div>`;
-  if(it.analysis) h += `<div class="sec"><div class="k">${L.b}</div><p>${H(it.analysis)}</p></div>`;
-  if(it.watch) h += `<div class="sec"><div class="k">${L.c}</div><p>${H(it.watch)}</p></div>`;
-  if(it.sources?.length) h += `<div class="src">${it.sources.map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name||"來源")} ↗</a>`).join("")}</div>`;
+  if(it.facts){                       // 新格式
+    if(it.brief) h += `<div class="brief">${R(it.brief)}</div>`;
+    h += SEC("重點", UL(it.facts));
+    if(kind === "general"){
+      if(it.why?.length) h += SEC("為何重要", UL(it.why));
+    } else {
+      if(it.issues?.length) h += SEC("法律爭點", UL(it.issues));
+      if(it.ruling?.length) h += SEC("法院／機關見解", UL(it.ruling));
+      if(it.laws?.length) h += `<div class="laws">${it.laws.map(l=>l.url?`<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.name)}</a>`:`<span>${esc(l.name)}</span>`).join("")}</div>`;
+      if(it.practice?.length) h += `<div class="practice"><div class="k">實務提醒</div>${UL(it.practice)}</div>`;
+    }
+    if(it.watch?.length) h += SEC("後續觀察", UL(it.watch), "watch");
+  } else {                            // 舊格式
+    h += SEC(L.a, `<p>${R(it.progress)}</p>`);
+    if(it.analysis) h += SEC(L.b, `<p>${R(it.analysis)}</p>`);
+    if(it.watch) h += SEC(L.c, `<p>${R(it.watch)}</p>`);
+  }
+  if(opts.img && it.image?.url){
+    h += `<figure class="fig"><img loading="lazy" src="${esc(it.image.url)}" alt="${esc(it.image.caption||it.title)}" onerror="this.parentNode.remove()">
+      <figcaption>${esc(it.image.caption||"")}${it.image.caption?"｜":""}圖源：${esc(it.image.credit||"未標示")}</figcaption></figure>`;
+  }
+  if(it.sources?.length) h += `<details class="src"><summary>來源 ${it.sources.length} 則</summary>${it.sources.map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name||"來源")} ↗</a>`).join("")}</details>`;
   h += `<div class="foot"><button class="lnk" data-act="note">${notes[id]?"編輯筆記":"＋ 筆記"}</button>`;
   if(opts.thread && it.thread) h += `<button class="lnk" data-act="thread">同案進展</button>`;
   h += `</div>`;
@@ -237,6 +285,12 @@ function cardHTML(d, kind, it, opt={}){
   }
   h += `<div class="threadbox"></div></article>`;
   return h;
+}
+function rich(x, hl){
+  let t = esc(x);
+  t = t.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+  t = t.replace(/^([^｜<]{1,12})｜/, "<b class=\"lb\">$1</b>");
+  return hl ? highlight(t, hl) : t;
 }
 function highlight(html, q){
   const t = q.trim(); if(!t) return html;
@@ -259,6 +313,9 @@ async function render(){
     <button class="navbtn" data-nav="newer" ${i<=0?"disabled":""} aria-label="後一天">›</button></div>`;
   if(!b){ main.innerHTML = h + `<div class="empty">這一天沒有${LABELS[view].name}。</div>`; return; }
   h += `<div class="focus"><div class="lbl">今日焦點</div><p>${esc(b.focus)}</p>${b.scope?`<div class="scope">${esc(b.scope)}</div>`:""}</div>`;
+  if(b.items.some(x=>x.brief)){
+    h += `<div class="quick"><div class="lbl">30 秒速讀</div><ol>${b.items.map(x=>`<li data-jump="${esc(itemId(date,view,x))}"><b>${esc(x.title)}</b>${x.brief?`<span>${rich(x.brief)}</span>`:""}</li>`).join("")}</ol></div>`;
+  }
   const tags = [...new Set(b.items.flatMap(x=>x.tags||[]))];
   if(tags.length) h += `<div class="chips">${["全部",...tags].map(t=>`<button class="chip ${(t==="全部"&&!tagFilter)||t===tagFilter?"on":""}" data-act="filter" data-t="${esc(t)}">${esc(t)}</button>`).join("")}</div>`;
   const items = b.items.filter(x => !tagFilter || (x.tags||[]).includes(tagFilter));
@@ -314,7 +371,8 @@ async function doSearch(){
     for(const kind of ["general","legal"]){
       if(searchScope!=="all" && searchScope!==kind) continue;
       for(const it of day?.[kind]?.items || []){
-        const text = [it.title,it.progress,it.analysis,it.watch,(it.tags||[]).join(" "),notes[itemId(d,kind,it)]||""].join(" ").toLowerCase();
+        const {sources, image, ...rest} = it;
+        const text = (JSON.stringify(rest) + (notes[itemId(d,kind,it)]||"")).toLowerCase();
         if(text.includes(ql)) hits.push([d,kind,it]);
       }
     }
@@ -350,6 +408,8 @@ $("#tabs").addEventListener("click", e => {
   view = b.dataset.v; tagFilter = null; editing = null; render(); scrollTo(0,0);
 });
 document.addEventListener("click", async e => {
+  const jp = e.target.closest("[data-jump]");
+  if(jp){ document.querySelector(`.card[data-id="${CSS.escape(jp.dataset.jump)}"]`)?.scrollIntoView({behavior:"smooth", block:"start"}); return; }
   const rg = e.target.closest("[data-region]");
   if(rg){ liveRegion = rg.dataset.region; renderLive(); return; }
   const nav = e.target.closest("[data-nav]");
