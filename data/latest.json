@@ -1,12 +1,78 @@
 {
- "updated": "2026-11-27T03:01+08:00",
+ "updated": "2026-11-27T10:12+08:00",
  "groups": {
   "national": [
+   {
+    "title": "神人開發「NVIDIA G-SYNC Tweaks」開源工具，徹底解決高更新率OLED 螢幕 60FPS 閃爍與卡頓",
+    "source": "電腦王阿達",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5IdkZfTGVJR3RGNnI2bllUM3JkZkFBWDZRQmtNNWtNbFcyclZwOVNRQ05SQ1lGSXpRZVdUcWFnMkVYUjhOLTlyRzZZdUljRHc4WlE?oc=5",
+    "time": "2026-11-27T09:06+08:00"
+   },
+   {
+    "title": "《卡牌冒險團：遺物牌組構築Roguelike》11月26日更新Q版卡通風格卡牌構築、遺物搭配、卡牌合成與無盡爬塔| 8位特色英雄、每日隨機挑戰及週末奪旗大賽每一局都有全新策略挑戰牌組極限",
+    "source": "Mobile01",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8yWTNmTVkzNUNvcnZVMktHMmxnNTZDQVF4OEVvT0pZb2k2bWZGWHUxOUs4czNoYlk0aHY2aWl5WDdxMGpnZ3M0RkpHdWJtZVpwbGFRVmJYVlZqR0dLdktLU3dLN2x3eVU?oc=5",
+    "time": "2026-11-27T08:57+08:00"
+   },
+   {
+    "title": "日本Amazon黑五開跑！Switch 2遊戲特價！",
+    "source": "JUKSY 街星",
+    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBmd3BtMXZIVmtnQlc2ZnVUcWtyWllCOUdZVjJEQy1QTDgtYUJIUWVqQ3lEWjZuNXlYTFVFSk1Sb01pRXhWX1o0MHd2M24?oc=5",
+    "time": "2026-11-27T08:49+08:00"
+   },
+   {
+    "title": "聲援性侵犯男諧星挨轟！女星IG刪合照道歉：對自己的無知感到羞愧",
+    "source": "ETtoday星光雲| ETtoday新聞雲",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1uMmlZUGo5bEkwUjk1cnhtekZIX3pWT3JGQzVJN3QwdHMxbFA2Ynk2RG9fU1Y3d1ZkTDktcTl2VTRJNGRNSzRWQ0phcEtrd9IBTEFVX3lxTE5PS1FPWnFzSUFZM3lhZ2J6QWZKZXpka3o2ZUJLcDNXZkJhZzBicFJRTk5tZl9NbVZRelFXRXRSaXE2NDIxVXRuM0thQlg?oc=5",
+    "time": "2026-11-27T08:36+08:00"
+   },
+   {
+    "title": "台灣高鐵南港、台北、板橋3站今晚自由座進站管制 排隊恐等1小時",
+    "source": "UDN",
+    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5hbEJOZmhXU1ZEU1FWemE2d3FPLUFZa2djaEN1UzlPVXVjSWRQb1E0cWJ4RzBtQk9oYkpyQjR6LXB6Z0VGSnZDb3VFcld6bXhn0gFWQVVfeXFMTklwclVyQ0xkaE5OTGpDbFQxelN4TnhHQ2N3Rk5TdFAxRmNFWnI1UHh4Y2V0WXM5TFJtM3UyYnJXd2EwcmFzNUFjemliOGNzNXRQT1lLaXc?oc=5",
+    "time": "2026-11-27T08:11+08:00"
+   },
+   {
+    "title": "陳嘉偉喊今台股最後逃命機會！股民直言選前護盤太誇張：不然早就剩3萬點",
+    "source": "UDN",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1FOVBlM3JSYU1nd3owVzBfQWlmd0JyNldBM3EyYVJubmlUM0dpN3Z1RGttMk9QT2xlamI0UUl1dDVaUDVTVGMxT1c5RzlPeFZIV0HSAVdBVV95cUxNRktxLVpRM3Y1WHhpUE40TU9NZVpvU2paeDZPSjJsNVJUY2FzU09NSGVCN1I3TE1vdkdQSENrTzJpeHh4bHVidEphRHJCdHRfekl4cUZHck0?oc=5",
+    "time": "2026-11-27T08:08+08:00"
+   },
+   {
+    "title": "SpaceX太空AI獲准布署百萬衛星！「PCB龍頭」亮燈加冕量價雙增王 聯電一度收復90元搶進榜",
+    "source": "Yahoo股市",
+    "url": "https://news.google.com/rss/articles/CBMi2gNBVV95cUxNNl9zQS1ZSHBPRE5nWXZTZF9WNm12SFVXS0ZSMkxoV3JkWmtmTzZfNncxYTdCT2lzNGRNQnBlQ013WGdyUk5tN20zaWMzc1FELUlITU1iXy1DOHRvUHYwWW0tdTlJbFBhMVRieXZyM292Z3IzeWVPVFF4YmtSbXMydXNqVHptMmp3Zm96Rllic3dvLW5zTkJCM0I1aXZUXzN2VWxDVzMzNmtRVk1LM2E0REZ6c3daSHMxSHIxcy1OZUJPci1MQW5YV3hlcmQ3cXYyQWM5TkZnRFV1T1NORS1aQld1dkpqSm5aUzA4MEV5ZVVnY1JDeTNVdlI4OEJnTE5Pbml0UHY2SHFVMWVQTXZIbi1sY0k5el95eVhxeHQydk1oRDB1RzhnemtlOTlyVHN3THgzYWZlcGFYaDFDZ21kUGRvWUMzcElDYWV6Skd2UVRxYXBxV05pWGE2OF9Tc0dsRVBDSnRyT3Y0VHhkdVNpZFNMNG1QYkF1ZGhMV3RIUWZfMUtSQURCZUE1QXQxald3Sjd6NGFCelNwblJ3bnBDWnlYa01lOW5KcF9HNmR3a3lScFJBLUthd3dmQXdqWDFJX0pieno4ay01N3F5UVUxUUttaHJodENsNXc?oc=5",
+    "time": "2026-11-27T08:07+08:00"
+   },
+   {
+    "title": "阿茲海默症新藥二期試驗報捷 認知退化減緩逾五成",
+    "source": "商傳媒",
+    "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNVTAyM1FXMTF6NENCbjRfTHRXOXlIRFRoRDVjNWFkR1dJdmxXeGZ4UkFEazVkNm1Lb0RDSXJxYUxpLVdMR1ZEN1ZzXy1Ra2NHZUZhY1RGWnVrTTJ0REY3VUh0cER4WFBCc09qU3E0UDRaV0ZvSG16ZVA2Ym5Helk0SktzYnFXOURBaEpZVmxlX3IzSkpCdU9lUl9SU2s5aEItRUdFbjhvX3VTQ2RnQl8xLXZxR0lpTXdoSWx1ZzJiR1Q4Uk53d3BwMG9LR2dyWUo1Ymh6X21QbU1ORmx3V2I1Q3pURWpnQTUzbF9JYVo0YVJCWm1HdEEwWGM5VkZIUEc3TjNaM0NndklCVHUwLVNKZWZiVVhqMExtR25ERG1sdTJSR2x2c2JRVg?oc=5",
+    "time": "2026-11-27T08:02+08:00"
+   },
+   {
+    "title": "警署驚傳巨響！39歲港警「頭部重創」倒更衣室洗手間身亡…一旁留配槍",
+    "source": "Yahoo新聞",
+    "url": "https://news.google.com/rss/articles/CBMikwNBVV95cUxPQjVMVDA4SnhqSWw3OUwxRUF1dVRjTGozSUxSX0hDZkVTVzVjeHFvZGplNldlbFhPdVUtbmcteGpfZGNlMDRMOFlWUm5zdmhXR0NNTW4wbWF5VXc5MnFPNFNUTU82dTB1YkM0bmtqdElUSnhOdHdOWU9OcE15emZsXzFXRGxfaldvZHIzUjRwa3pSTF9lUmRaUDZDSjVXM1BBMU4zWVhpYU5mZWhNbnlBZkRFWWxEdjVQcXZSR0pYUl81MGZCTGxlbVB1SmtJcU0zMDlQQWlYODQ0MHNSNVQ2NmpHZlh1U3l1YklVOVdaWDczQnB6OE1aN2ZfMzhSMnpkNlNqZnpwM2RJX2M4SW9UUHdQVnhnQnFESUtjVkFyNVJkTEx6eTFhTmVyVXY4SHlhREtub2hXVlVsbE9Cam1TZWp0eWF0bUJfWHA0M3FSdzBlLXQtSG5JVklZZ0hYaXF3WGo5bUFTWE5iRU11bldnVU5ISXFGRmdObXpqdTJKa2dxekRUbGdYMzl0T21zQlRMNFN3?oc=5",
+    "time": "2026-11-27T06:06+08:00"
+   },
+   {
+    "title": "烏克蘭情報機構：北韓暫停向俄羅斯運送飛彈兩國外交現裂痕| 國際",
+    "source": "中央社 CNA",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1PWG1rZkJxRjZBYVJpd3B0RzN0RlhxamRVV1JxVmxmUnc5U0pjUTd3QVBYLTZLZTAyRWpCaUMwdUhiT1RFVWtuRFdCdC1ZQXR4d3YtRFN4X2FfNWZPYmZj?oc=5",
+    "time": "2026-11-27T01:14+08:00"
+   },
    {
     "title": "拿中共身分證全回來投票了？八炯點名「6都＋1縣市」：選後公開紀錄片",
     "source": "Yahoo新聞",
     "url": "https://news.google.com/rss/articles/CBMikwNBVV95cUxOYS1IQzhqMWFDQTR3ZWZWWWpFcTQ1OWs1QnNaN01NNVZXWjZ2RDg0TUFhLVYxMGVPNHdNV2lvLS1Ea1J2ZmlRS01QRlZmZHV1MlhvNmI1TmpSaEd5MTE4QjJaRHRnNXhveWFKMkRidGJGdjA1QlhVQkwwN2NhUUdfaVJhcTdFYjlnZzFycjhCT1haR3Y5VnVRTXBSSFBOOWxickw1U3RPWFFzZnUyUW1HRmxHdGRjOWdmcVdheTdrZEFIZFFhbWgyeTNOWFBNSk9tQUVzV1dYRXNrb3RPT1RsbFlEOWV5c0Jnc3BNVW1aZlplam15d0tvcnlCZnoxaDN3Q0dwNEdpa1RGY1NqdVR5RGZNZDdNcUpZWVMxNXNFS25wM0NnQ1kyRWg1clZFR3RxWDBZREhMYndoOUN4dUxYUG1CRmZ0bGNDMGJVS3FEWmJiZVJiUmFpZzFNMlBTR0ptSWRCRHdvejFldXhndDdNMl9sdVJBc0F4VjBjV2RXdm9PVUxINl9memNreUtIdW5UMHkw?oc=5",
     "time": "2026-11-27T00:41+08:00"
+   },
+   {
+    "title": "嚴防選舉奧步…在野組律師團 卓揆喊加強資安",
+    "source": "UDN",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBrcTN6bEdIOUp0MnYxeGU5UnVvUkNJTDhoM3NaUURQemlqNHJUS2dZcWhYcVFzRmJYNWNldERaeWtLLTJYbFE3V0QzbFA0RlFXZE9V0gFYQVVfeXFMTWJMS2NtbjNsanptWmFPY3lxTnJBZndud25MTjllR2RFa0tIWXhndm0wMVFtZXh0WDhHSXdUY3AzN1N4Ul9ZVk1zcjJfcGlld1kyNXdwd1hlYg?oc=5",
+    "time": "2026-11-27T00:02+08:00"
    },
    {
     "title": "PS Plus 2026年12月會免：微軟旗下《Tony Hawk’s Pro Skater 3+4》領銜 – 馬丁西德雜誌 - Martin Cid Magazine",
@@ -19,6 +85,12 @@
     "source": "Yahoo新聞",
     "url": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxObDh4S0I4TnVsOWpWNmt5OTNIUEZsdXZsZGNjMi1uZXZJZW5nZmxNQVRKaWJ5alpjSS1waTAxRkRETGZ4V2hQdUVIUXhxd3V1T3RONnY5b0QzdkRzcWlCdGxQdWRMSG9BVEN2Wi1RYmxVRko5RFJCNU5zOUd3ZFotM0hEOV9nQ21OX1NYZFZyS2tBYW1CdE5uN29CSmVKSW1kbzN2NTRFN29FWGVSSkxRcm90R2w5M1NvVUVTVkNWbVFSN0FCU2ZtVGQtRzVrTG1IUE1aOEgzLUtkdkxIbk40dFRMQWY5b2VFLXd2cFBLU04tN2pVeW1EWTdZcnVobGhXVzM3cjF3NzZpMC1nRnlUSDNyWnVaUG14THNDMGRXcXZtYU55N3NTSmlacUxYY28wcm5wcXg3cmszTkcyMFNXNXFNbXJJMUJaTm5qTTV5RldkekxmWHJmQzMtSjBQTHgwVi05LUdOMkwtdnZhZkJWeXln?oc=5",
     "time": "2026-11-26T22:39+08:00"
+   },
+   {
+    "title": "12強資格賽》中國隊索旭迪主投5局封鎖捷克！ 晉級12強會內賽有望",
+    "source": "Yahoo運動",
+    "url": "https://news.google.com/rss/articles/CBMikgNBVV95cUxNd3UySU9xTzViTllGdmtxN1Q4NjdEUnVQelJmbjhMc2lNaWw4ZVZjalI2X3VRWGFjX05YRlZ4LXpIYmRTLXlKUXdkT0RreUUyY3phbXpib2xHWlg5cEpFelAxS2ptU0ViUEQ3dmY3MXB6VnIzQlY2TnV1U2lMRGJjUVNfY0NWUjh6LUkyS3lIS1hsYTI0S1FlZ2N0d2NHa0tsVGJ3bkFmV1RfZEUzTVhhVVN1R1hoemdISmZiYm5KWU1mWUllbEhsM2psNmplcV9Xd0h1Z1N6STRNNjZJQmg1Sm95OHBTajAyRUZnTlZnZ0V4a0lvNDVXNmZnNEFvV19mZ09mU240NEx2aXM1dERKUXF2c2pwWkN0dnFza2tsZVlSQy1MVjQ4eVlyN0Z3c0ZCYnFOLVVIRmZTU1Fna1FxOVpMMHNrbzBrRGpJLVgtTVdLRVFQa3FTemMtQWgzSVU2SEpFUjhNVDZ2X0xCa2l1d2FMaWdwNVdLWTluaXhPNlRlSG83SWR3R2NKTFVjcHBFUkE?oc=5",
+    "time": "2026-11-26T21:36+08:00"
    },
    {
     "title": "12強》奇襲！看穿捷克在台灣的罩門 中國隊罕見戰術奪首勝",
@@ -39,6 +111,12 @@
     "time": "2026-11-26T21:00+08:00"
    },
    {
+    "title": "提告傅崐萁索羅斯案敗訴 沈伯洋：法官認太扯沒人信 | 政治",
+    "source": "中央社 CNA",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1mck1WMkRNdVZJdjRBWDVkWm1pcHE0LVVGUDlFeThOVzlSRE83SEtVNHZHSVJpZVVrSk1YOHVyU3huQXllYWpCTGZBekhLWllUWi05RGlaV0NtNEI5WmJj?oc=5",
+    "time": "2026-11-26T20:13+08:00"
+   },
+   {
     "title": "《自然智慧與意識的邏輯》：從自然智慧與人工智慧的本質，看懂AGI為何無法取代人類",
     "source": "TNL The News Lens 關鍵評論網",
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBzdzlRQXhETk5sRTFiMFZLbldaSGhuSzRmSFA5aVkwaEtPNzRETnZlckdILWZfLUdIVS1STE9jNVpnV3BGVFc5TjRjVjU2Z1BfMFNYXw?oc=5",
@@ -49,6 +127,12 @@
     "source": "CMoney",
     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1BS2lXVU9tQWpOQVlEMGJ4ZHRBV0lDOGRMUVh4WmstX2RBSUxwNFdWNWFfd2JTLWF1bEUtSGVyWFYtQmJLb2Z3R3JuZEpxUWhzWFlQMk4tQUw?oc=5",
     "time": "2026-11-26T19:59+08:00"
+   },
+   {
+    "title": "影／楊力州操刀、吳念真聲音演出！沈伯洋最新影片曝　小麻糬獻聲",
+    "source": "NOWnews今日新聞",
+    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE43THBaNDRTeVkyczdsaUVfODJrMXNYTWlDVVI5SjBNbmtrR1hXeUJzUFBpSzk3NVdNdFg1X242VW03eWRHOXdzLVBEQlLSAVJBVV95cUxPRE1KUm9YSkllTk5ZY0lCeDBCdXhYUVNTY2xHeFBFSW9FWkhKY2NwVjd6NWFJdm5Yd1Vpc3FWTlNOWkRzWm9lNTJ4TjdxY2NTX2hn?oc=5",
+    "time": "2026-11-26T19:50+08:00"
    },
    {
     "title": "韓職／經典賽曾對台灣開轟！金倒永奪生涯第2座MVP 打破傳奇李承燁紀錄",
@@ -81,6 +165,12 @@
     "time": "2026-11-26T18:18+08:00"
    },
    {
+    "title": "日本年薪2千萬銀行菁英一夕失業！願付清5年房租 為何仍遭拒租？",
+    "source": "UDN",
+    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1QYkx6dGdneTFLQnFWTW1GWWNtc1I5SGVENjBRdU5pR1U5U09EM0pOS2s5b296Z0RReE0zemVEU2Nxc3ZESjRXbWpTUDBfSV9V0gFWQVVfeXFMT2xuX1FJdS1JSllDZE9lN3pIei15eWdqeDRLbEdFU1I4ZVI2b1FpVWtJUlAtTzVIYk5NeXQxN2hhUUdTd3RvYWhMeTQtTkJwVFVFcUloR1E?oc=5",
+    "time": "2026-11-26T17:37+08:00"
+   },
+   {
     "title": "向華強不願再見女兒！向太直播揭多年照顧內幕，曝每月給49萬撫養費",
     "source": "造咖",
     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9vR3VmQ0tya0xjLWVDN2xrY05EYXRJb3g1UWlJa0ozN1ZYUzdXWGFEalB6RTJnU1hEZTJiZlFYRHhmSTNYMWlHaw?oc=5",
@@ -93,10 +183,40 @@
     "time": "2026-11-26T17:09+08:00"
    },
    {
+    "title": "沈伯洋宣布取消市民之夜 陳所長批「基層警察休假被拿來陪葬」 石明謹：基層反而鬆口氣",
+    "source": "Yahoo新聞",
+    "url": "https://news.google.com/rss/articles/CBMiqgRBVV95cUxQek5lUVp5aGczMl9KWTNzc1dpMnZ1T2wydFhqZVVCOFNpSi0zOFkxaDJKbktTR3ZPbGIyckpyMkllYnpaWm0yM1VMbXJmRVFzcFNFaVVZdlZMYzFqSHVNUjlZS0h4ZFRaQTd3Wkd6OVVMZHV1U2ItTG9nU0JweVRNeWFDMGVIYVF1NnpmVEhRMFhqd0g2OU43ZmN6SzV3dW9KdlJQaGJqQzhZc09PYXp1TndmRzlaMnZ3VjluSXhZQnFmRGVDRUI1RWFsOHBnNThGSTh5SVFXZkRaNG5mWHp0RDZnSXBRdHRGTVZQbDBrbE5GaUNTOXdMRmdfTF8zdXVYQ0k3cjdNZzlzbGJ0cHVmTU1tOFpKdTl2R0VfaEFNZEw2X2FVMXNlMUMwRGgxNmVuV1VDTlZvS0FDNEMzZDRiNW04MkJaSmF6bDc0ejRnVVpIYnNaT0kydXVJdWV5YU04Sk5yR0pwWHZCbnZmcnV2TV9oWWN2aENTeEVkcDVTMV9NUkJjcmxFU1FoNS1HN0gxaWpGZTNkc2taMlE1V3M0NWkzY21tUXc5MmVBQ2hzUUZ6TTJJcGVSNkFlTnZKaUh0RVREbXdNZVZua3ZSd0dmX0hwb1d0RHJlZkZXaHVDLUhIb3FXeURoeHNSbEV5amI5ZUJJVG44WDkzNDRoTERfVFlxZldsNzh4OEF6akZHRlNkUkJTYjVjSVNzTW1Md25GYXlERV9xa1B6Zw?oc=5",
+    "time": "2026-11-26T16:58+08:00"
+   },
+   {
     "title": "外資綁三大法人出清132億止不住！台股大漲956點收復39K 股民怒：感恩節殺心還那麼重",
     "source": "Yahoo股市",
     "url": "https://news.google.com/rss/articles/CBMi6wNBVV95cUxNemYzemo5SURLNHZRNWZ5eDNIUnpGT1NEREMzQjNleU1PeF96cmVxZ1ZmbjNydzJweGlOazI0MmFuOUxVYUZpUkR3bEdWN3hlOEVOYXFzLThpVERHQjZjWm15NmhtYVcwWE40OWpBVXhCLVBFVnBPdXNlTTNtWGd2UDFRc0F0dW5HaF95c1VSblVDOXN3T2dlUk5PNHdMM3l2cUhDdlJNR0ExR211ZVBTRkUtbGU4aWNKRDEzVkRVajhCRDkya1JvUEQyRjhGeWZiUzZiVkNKTTcxM3JNaGZMeHpoVVB2Sks1N1NHeVViT1pzTTIzbk9KSUlEelhMZWdHVGUwRFlLVVRGQWt1cHZNcHQzLURablNtakQ5TE9CWDVQNTdDWmQyT3dMYjNPb2lDdmJDZWRxSDE0R2RJbU8tdE5wcGFMRmk4aWxEUUZ2b1RWNFdLS2w5UzBJNkF6enRfb2czcS1PWklhQnZFenZ3OU0zU1psMm52OElYajFwcW9mZWZ5RzRJbWJURGw3T2dMWS1lODJEV1M4czBIZVJJY2J4V25zNWVUU2ZrNWtJMERUM29NQ29lV1lFU0kyWF9kQXZoS0R6RGIzcEkxMWlWdXZWTlp3ZFJhX3BIMldUem9fVUN0a3lQODdfZw?oc=5",
     "time": "2026-11-26T16:45+08:00"
+   },
+   {
+    "title": "232半導體關稅未定！鄭麗君：台灣已握MOU保障 配額內免稅、配額外不疊加",
+    "source": "Yahoo股市",
+    "url": "https://news.google.com/rss/articles/CBMi2ANBVV95cUxNU3VCLS11Um9kbk5hLXNQbVFpT2RaRzZtdmZXd1ZiejZTdU4tRTE2NnNuTzl0eGkyWDNkVHFsT0luM05SLXFrX196NHN5NWdGaEg5cHBMMXJDdWhRTGNkZWsxb09oOW5DTEJmVk5nM0piak5LeHd2X0JCbGpkU2pMS3RZQkZzYnByRnFidGtfS012eVpsVmY3U2hCQjBQOGFoT1VCMEZQRXRGSVppa0tkRkRuWnI1ZnNJRnVBVXVNcnVncnIzNUctMWVQYWZGbGRFN2ZxWGdNdFA2aGhuTHA5czR3Umlra2FSbGZVLUk5bHc2YTVkanJBWDZ4V3dlRy03M0ZLc1oyS1JCMVBMczlsUXNGSUJpMWNlWS1mRFZ3RUVuZHgxZDJsSzl4WEo2RnZVd1FPZWhUemtiS3BzYWg2Y2dNdWpieWdMSUdqaE5QSGctQjc0dm9OXzIzeGlQeWRkeDlXOTBheDJtQ3VkQkZSb3BQVU5OcUh0c0JBX2pFczZLN2oyUDlsRjlFaUVCNHRqU1ZBekViN2F2Sko2YTJRT3d1RXl5X3I2QlpmRzB6M0dIcWN0SjlfMDFYaE9oQ2dlZXU5Rk55V2xFX3VwaURpaVgyTzYyMVNG?oc=5",
+    "time": "2026-11-26T16:27+08:00"
+   },
+   {
+    "title": "尼泊爾洪災搜救無望 政府啟動死亡宣告程序",
+    "source": "Yahoo新聞",
+    "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPU0tqSlFhVWdTbWtjQ2FyZlE4Nmk3QVhHWnJrTTk3QUNzSFgxQllnNm9UWURyLUFUZnhHVnlpTUlqQjliM0d2SjItdjdjYUhfRmY2VjM5T2drenBUNG55aVpSOXR2V3l5T1FVVjU5bjd6M1NZdTFBMmNSRU9Wb1MyT2lVaHJoX2J6NGJ5TGh1WnVxYXdmRVlZdzVkZmhwOEZJOUJ2TUVZOHI0Q0oxX0FyTy1lak55U282TUloQ0Y2X1pKX29NaWdrejNnTl9PUmxhNWxhUnFOSW1JRXhTWm5ESGJFeTUzWVlzSl9ab0FPcHc0eFZCLXU5eGpNbXlwR3dFeURmYnkxTEptbVItbXJGb0RPTW56ZXhQa1hiY1A3d2tHekxqWG1Pd1ludmp4VkpnbGlKMmc2MDc?oc=5",
+    "time": "2026-11-26T16:15+08:00"
+   },
+   {
+    "title": "蔡瑞雪新婚尪成路霸！7個月前交車影片遭翻出 網一看停車位置網全怒了",
+    "source": "Yahoo新聞",
+    "url": "https://news.google.com/rss/articles/CBMitANBVV95cUxOUHpuSEVOQzkxY3IyMXI5LTZOcTFzRlhjcFVHaF91SjRZTkxvZWxkeEs1Qnl2YndZQ05ZSm8zV2k5NGVtM2hfdFVLbzJqUGZCNDZiOFh0ci0zU1lTLTVKWHhYREExNTVueERLb180RkFYRktXWGs5RENkQW9wNlJrczVFenZObDRENTRkcDV4MjFORl9LVEtHQTNIUkFuRWR5eGhEejk5VEx0QnNoQjR5bjN2dnBXRVlLeDU1MU81dW5mX0pQWWlMMkNjWjk3VHVkM0ZmV29NbFRsSWZ5UWlOeUs4NDZ6eXpSb0hoRE52SmRQMTRpSE05ZmhrcFE2NFIybEYwRi1fRzc1dXZOUmh1bVUwbEdnVDhPNkk3QTRfa1Y0OTVSTDBzV0dKT3M1OTMzc202ME9FSEpJUVlWMTlYSW5aMjNfdFRzdHo4RmM5Q1UwOGdkU2ZIZEEzbXRZb2tVSXk5QkQxZ2dHYVFFdzlfbTZIWmRzZnhjaVVBeEFaVml4dFc2Skt5SmdRLVM3VVZNVFJ1UHB6NXdxUkRCV2pjZkxwZFlpRlRwUFBSZm52dENObzdu?oc=5",
+    "time": "2026-11-26T16:13+08:00"
+   },
+   {
+    "title": "立院今咨請總統府公布普發2萬元條例 政院最晚這天決定副署",
+    "source": "UDN",
+    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9lRmN5a2ZOZG9OTkc5OTNCU3NtbGkwY0dKNk5oM051aWRnY1dqT09KZUhHLXNuSUI2bWJLdkxUNGhkOXNjM1RvRnZQYlQxVDho0gFWQVVfeXFMTm5lNHFaTnhXeDBLNktBZXVxd3FuOHp3ZHRuNnB2TFA1VmFWa05OdVVkMTlJaTE2WGFISEJNYmNQOThpTHZlQm9yM0x1bjR6TUVpMEFINFE?oc=5",
+    "time": "2026-11-26T16:12+08:00"
    },
    {
     "title": "金融時報：輝達暫停對東南亞4國出貨防堵中國取得AI算力| 國際",
@@ -121,129 +241,33 @@
     "source": "Yahoo新聞",
     "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOa0JwOUY2cEUtTV9PVmt3alcyN1hnMjlRSzQwcWNkOTh5YUhqdlducDZaVW5rejY4cHFScGVKaFUtM2trTzl1V1JMVGlBamp4ampnbUtIcGdsaGMtOXdfNENPMGFuVEVpdnRDcDV5U0dqY2hYbktWUXNiV2lGNmkzc3FZWmlRS2xfd2JvVG1VVlZHdkpKUWdNNF9sX2JQTkdPZjhkLXZVWVE1UXR1eEFVMDNwcnhjdnNNX2VnQTdueEFJM2ZHU2lNc2o5MFVSUVFuY195aFF6WjZVdzRIVUozbnZTRF8xcG90ajRXT1VUd0ZkV0U1aFEtcWVaRERoTjg0OEpzcEdFeWdtNE9POGYwS25vSHE5QzFWOTF5RUFYd2lRVDRSMzFCQ2p5X1REbHpiNDRLVVctMWZUZw?oc=5",
     "time": "2026-11-26T15:36+08:00"
-   },
-   {
-    "title": "《空戰奇兵8 希孚之翼》Season 2 即將於12/1 開始追加機體、任務等新內容《ACE COMBAT 8: WINGS OF THEVE》",
-    "source": "GNN 新聞網",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8yZi03dlJMU2lUTk43Q3ZMQVlJRkhkNEQyNkpQYmJGQjN0ZUZVaDlXdFRvLTVhMlQzUnhRNEt4V3FUb0ZlTEQ3RnhpMGFYWWEtVVE0VjFYQzE?oc=5",
-    "time": "2026-11-26T15:10+08:00"
-   },
-   {
-    "title": "《信長之野望 飛翔》確定 2027 年 3 月發售 將與電視動畫《轉生貴族憑鑑定技能扭轉人生》聯動",
-    "source": "CMoney",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE41eHNSLVM4LVhXLTBycm1fTl82bGQ0WXBzVl9yNHdmMTVfZ3g5OWoxWFBtUFlXaXZuT0lPc0tKbl9UT3BUc1lCR1U2NXdnWndYd0JSUDBmbTE?oc=5",
-    "time": "2026-11-26T14:57+08:00"
-   },
-   {
-    "title": "國道1號彰化段四車追撞 和欣客運司機與2乘客傷重不治",
-    "source": "Yahoo新聞",
-    "url": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxQSUhuTVlCR0s4VmgxZnFhR04xMFZWdVVYSFVsTTdhdE9jRUhXekFJaEppd2R6TVkxdDJWaF90akdmcHRwa0lTajhFd3ZQTnZ6d2o4R1pER3c1cVVzcmJoOXQ3RzhYVlFrTlNTVml2OWptZjFrc05tMll0aGdGYVoxTERpMDVNZjBRV1ZHOVFWY1NKZjdBbnBoLXR1SlhVcERUSmo5WW5qUXFOT1VvV1BPYVNwRXhGU3I4OTZHQnoxSHA0aFFvSWplRTF0aVFDZGQ0YXJEaTQ4aTdLbHZTZTBvcVdrWUh0WXcwcFNaNFlLLXFnbjZReHJyVXF0amRaTkxyZVI0emhxVWxqMGR0OURFUXlnS0FEbG81ZElBY0Y2Y2dqcVI5TTlKTkN0dmZkcllRLXhRdUw1NDR0Zk41OTlyT0t1UHc3WXZ3ZUZ0UkZQNHpqdElocGQ1aEVScUxZTFlkZ25xckM2bkVla28?oc=5",
-    "time": "2026-11-26T14:48+08:00"
-   },
-   {
-    "title": "《空洞騎士：絲之歌》團隊預告11 月 27 日揭露新內容「悲傷之海」情報《Hollow Knight: Silksong》",
-    "source": "GNN 新聞網",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0wUS1wSjMxVVVfbVNGSU01d0ljbllWYVE4c1dTaUZza01iZzZveHFQTUxGOGJkM3Q0VHk5NDg0SUdZQ045ZzBnTEs5c2xRVDBzMENvd3RrclY?oc=5",
-    "time": "2026-11-26T14:24+08:00"
-   },
-   {
-    "title": "謊指垃圾車廣播替蔣萬安拉票北檢今首度傳喚作家廖玉蕙| 2026九合一選舉",
-    "source": "udn",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9SSVk1OWU5UktvaGhUdnFHRDlJQUhMSEQzRlpqT1ZUc1NzUTJuNy1uMVJrdHZFbjhERHJ2YnVqTEllUFBnZy05THA5RE4wSUlBRVg3bXB3?oc=5",
-    "time": "2026-11-26T14:21+08:00"
-   },
-   {
-    "title": "美國麻疹疫情逼近6千例創35年新高 陳惟華醫師分享防疫觀念與植物性飲食免疫研究",
-    "source": "www.atanews.net",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZdjU2ZERzaThOeklISXFwZkk0d0tvLUFHYk1mZ3YxNkVkOHdXOHN4MlYtQUpFQ254STluTU0wYlVnMGI0dWEzVGlXa19KQWc0VW05MUVVWllDbDQ?oc=5",
-    "time": "2026-11-26T14:18+08:00"
-   },
-   {
-    "title": "史庫柏值得大都會重金豪賭！狄葛隆後球團首位真王牌降臨| 運動專欄| 運動",
-    "source": "udn",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5wLXpHUENwb1FOVnJvaWx1czcydnlrZHBhOTRwS2lsckZvZGxhSFdMdlFmMFp6THVnUUxzTGlIc1BMRkdWZXQ3eVF4MzVxbHN2cTIw?oc=5",
-    "time": "2026-11-26T14:12+08:00"
-   },
-   {
-    "title": "GLP-1瘦身藥護心新突破 研究指嚴重精神病患心臟風險顯著降低",
-    "source": "商傳媒",
-    "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxQYThqaXAyTlVUbnNNTnlyMlVsVkhGVTNmVEI4S0NOUUo5bGtiQU1KQWM2R3k1eHlEWUJPLTRYTm5DcF9lc0VXenprcXdSMDUtbnpYanBQWGw1ME50TldKTGFZWDlLMXVmcDUtVFk4elRZMXJoclgyMktLRUZBZGdUQm1hMFg1THFyRlVramlQNU1RS2VUeHlkdVV5ZHZITU14RXVmVEJqbXJ0OEU1SWFXTWxTUEwyZzB3Zk1tbVBIU2d6VGlIa3REQ2szQzlaRnNrbk14TEhmbVE4TUl0RHNPQXBaZXNFWnN1RkV3QTdOQ2lfZ0pDNXpSekQ5a3BidUwtNFNCendhTDFQSTk0TUdyTWR0SVZyRjRNYVI4aXlUQ3dNUUFtUkJibHlpYlFFdEdvcVZrNnU1MWdEdjdZUkYyMFpn?oc=5",
-    "time": "2026-11-26T13:53+08:00"
-   },
-   {
-    "title": "美研究揭椎間盤退化關鍵 特殊蛋白質或成治療新方向",
-    "source": "自由健康網",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1UQzhudEtIaFRLUUhZNXlONVNmQVBNeXk3MHhlQktrazZvX2YwQ0xjQUdZb2d1Sm96MG80RXA2bUV5VmszSVVsSjc1X0RfOHlQOVUyYTVYeXNGeHFvTDlTUzgzS2U?oc=5",
-    "time": "2026-11-26T13:49+08:00"
-   },
-   {
-    "title": "沈伯洋突取消選前之夜 前警所長：基層警休假與尊嚴說改就改？",
-    "source": "UDN",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5tcWVxSjRHM3h4X093TEpwUzB2azlHS1JGSFNvaG1fZndCZG5ERld3UFRwYVdBV1NUWDYzY0NNWTc2bERGeFZxYy1XdUFyNFpJeEUw0gFYQVVfeXFMTWhmYXlwNGl1X3JlNk14S1F4Ry1uSjcwVFdEcmZiOF93Qjh2dEk4cUEzcnpEbWdBZWJoSS1VemV0UWNOQmlxTENGcnNKcmx4ekluc3J4bHppcw?oc=5",
-    "time": "2026-11-26T13:44+08:00"
-   },
-   {
-    "title": "大選前夕喊話外省同胞！苦苓列4理由：別盲目投給蔣萬安",
-    "source": "Yahoo新聞",
-    "url": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxOakVHaEwtME9PUmQwRFRiRWxLQy1vanhaQmxqaklpaFd1TmFidFhVZlRBQS1vZ0pZZVg4NE5UdkNMbzl1ZjNCUFM3Y1d1di1PUnRIS2FoRWpIVS1fVFhKWVc3Vk1XSHktRmxkUGtVdDljdGRVZTNaLUxIMll3QnMzVVZidDctRUl2cjd5YmhBVlZkcEx2N1VRa0tGTkR5VG9yU2FGbGQ3VXJqY3BnRVhNREh1b2RPU1FuLXZxZEhnM1JPQzJDV08xUHdxWXZtSzlnLXJJTnlsVWJLUlduV3MtSjEyYlB4NnNoRjJOdi0xeXdmYmdwUjFycFVmVHVjVm5rbDNxa3dpaVR0ajZ1UGhLVUYtdkgxR1ZoOUhYNHRLZXc5eTNCcjFGQjF2Z2xGX0taQ2szWVdmS2d6MVFNYzA0b3FyYnJidEFTZmdhR0pkUjFSSFdHai1hdElPV3J6WGNFMzJkbTRKVGp0aTg?oc=5",
-    "time": "2026-11-26T13:41+08:00"
-   },
-   {
-    "title": "鄭爽沉寂5年首談代孕 淚訴當年想生孩子原因「其實很害怕」",
-    "source": "Yahoo新聞",
-    "url": "https://news.google.com/rss/articles/CBMijgNBVV95cUxPd1NaSHpFX2RQcVFMQWp3cUZycUUyS0pyYmVHYURkNmNBUGc0WFAyUS1BVjJZMHI0US1EQlBkdzgtcDVoWU54YkxCMXRuNVZjcnNib2k2NnNFY3JZLXczcW82RTdlMjV1VUc3N1RCYnhkUWkyS0xUUEc2MFVfdVRxVFJsZVpTQUViaEYxTzk2c055anVBNnhFSjZvZFhBdUVtbjB5R21LMHVLY0JVMnotbW1SVHFkZ20yT09Hcm1uTVJodll0dW9uYWVpZTNyWFBobldrVWN0UkZEbl95RlBoQkpYQkxSSU5vVEhWQ0hrSWppTDNiUjYxZmJhSWlfeF9nUkdWMUVaeHFkREx5NVJtZTdEeGlDMHlUSGdfaTNHYU10THZVZlRzeHFFQ2lTUXJlQXdfTERXbkFSaHJBRThCcDB1RXozRXpFOXVvdUFXdXVBTVdHSHJZNVZUSVU5RnloT2ZzbXNiSG5HbGNaenRyQ0x5SF9lb0lUWElnUkRCcHRzdFo1TzdBdnlpWEN5QQ?oc=5",
-    "time": "2026-11-26T13:33+08:00"
-   },
-   {
-    "title": "ChatGPT到底有多懂你？「我是誰」指令爆紅　網友看完喊太催淚",
-    "source": "自由電子報3C科技",
-    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9HLWhPNjAzUzFPaGlvRUNkTm12Nng3ZzBGZmVTZHRZSUozRVRCMkNTLVp6T01FMGlUYWdiODc5alFRcnNET2ow0gFMQVVfeXFMTjNFekMxTkRXaHYyYjUwX2JXQUpNdTZKREFXaDBBREZva1FEVWFfX1lYUmhnRjNPOTZXeDFuVFRJdTN0eWJWQzFickRKSA?oc=5",
-    "time": "2026-11-26T13:30+08:00"
-   },
-   {
-    "title": "12強資格賽／中國隊球衣紅色變藍、白配色 尼加拉瓜神似富邦悍將",
-    "source": "Yahoo運動",
-    "url": "https://news.google.com/rss/articles/CBMimwNBVV95cUxPRTFRS1pGLWpHODdyRWdENHVLVXl4aVFMdy1QMkNiMVlCemc3anB0b0ZqRUo0ZnlhTV9Oa0syR0tpd3F0dFhRdHNKdGZVVUFNWlJyN1lWVW9MeFpETVJRYkVGTGdoOTBXZmJLQWwtZU9hZ2x5R2NTNTNmb1gzRnhnUEF1TnRROHlzNGFRR2Y5N1ZuOWpDcjVsVFR0ci1RMzllV1kxbWFfeEVIbWVjMVVNUmJPWVI0LUhpTGZKdmVRc0M0RW1Qa013d2xyR1lLY2tiTkR4eXBHcTdiNjZCS1JSTjgyclFRU1o0SXlrVTQtZnc4S1ZWRzZicFdJNDRubzg4QktITWk3bjgxOHZ6ODJBNmd3REYzaHNpWjE0RHZLdnpUdGFPdVM4Q0dNUmdxYmwyQXZQdUFJbDNYWkVvN29Xc2loc3RTSXp0WHFSbnhpQW45aFZiMVlLbGozSElEMGpuUXRjZC1aYVo0ZElqek4zSVgzYVdHa1JhZzZwNFY4RElRWUNzVGZfVWdnUUc2OGl2QWs0N2hSUmhuZjQ?oc=5",
-    "time": "2026-11-26T13:15+08:00"
-   },
-   {
-    "title": "短影音創下百萬點閱！台大學霸男神震撼回歸 小賴當場突公開告白",
-    "source": "Yahoo新聞",
-    "url": "https://news.google.com/rss/articles/CBMipgNBVV95cUxOTVpyVkpITmlkNXB0MjVHUFhWMTJUc2ktYnBUWUdoTDNGNk5LbG45bC1tS2FROHBBNzlYV3lxREs0SjlISG1Gakd0UWNjYXNIUk02OEFYZzc2Y3VpZm5EV2lObjNPQVBlSGl1TlQ2V295UEJ0TzNtQ2hqN1dUaXZ0TTRFbVN4TDZwbU9PTTR4RkNpY2k2aUZKcXFCaXZYcENRRW1tdWkxVmQ5aURiN3k0SlZlTUNWRGRXNktCMkVZZ3ZiTGJIdlk5R3IySXBlWUx0OUxuTkV6STR1NEQ2MFZUSkpHVjNua09GUVB0NjB6OE9XNmZkUFYwY2RGbERtelhXUll6dDRJWC15T002Q1FieU5CemkwZmFIRlEtN1Y3N09HTk5rMGhkZ3FDOTUwTW1jQ2hRY0NVYk90LWZjT3BrTTktWTBNSUxXNDlLUUlXOEZiTTVFWk9KMHhWT3Z5REpBY0lXSnY3M0FxSlRMeWtVd0l5QVBzelg4WElKZ0NGMEQyVWFadWFMc3hGamYzVHA2ODFDNlJKYnRHRnAxcF9MaVh2amtvUQ?oc=5",
-    "time": "2026-11-26T12:48+08:00"
-   },
-   {
-    "title": "周幼婷恢單後復出拍戲！「演單親媽」：要有勇氣改變",
-    "source": "Yahoo新聞",
-    "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxObVM1eHlBY2ltOHpqR1RkT3ktcUFkQmJuTXh3cXd1dnZKazJJZUFMUUtRNHNIRGowUWV0WE90c01Wbno2MGtCWWpIUGJ2eEx2bEFGTE94MFllMXF2cDN6QU1Yb2dNakdYZmljanNMOXAtSTBldy1BVi0zWVB5c054WmZ0TkJfWERiTlFhcTBSc01YRFdsVF9jcDFiaThrcnUwWG9DdDJRb3c1cWZBWWE0MmJjRW90YWluMlRBblg4dHZ2YkNKX1hPR3dkZWRrSXI1MjhndFBkalFKV2pNX2FYcDY4MWg2NVBDaVNFTmo3WGp0VVZneThFaE82TmRkQ1lLaDJmOXBydVhqVk92cWhaa0dEOXdhNkhDYjFZdWJHN1VMMkFNZjNqTmM4eW9JWmcydkNhMl9Zc21uQ1VNOURMcWJDRGJDQQ?oc=5",
-    "time": "2026-11-26T12:43+08:00"
-   },
-   {
-    "title": "歐洲探測器揭露小行星遭撞後樣貌巨大撞擊坑覆蓋表面| 科技",
-    "source": "中央社 CNA",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1JcG5weGhjM252amMzUXZWenBlVlFaRnhqUGRTZUFUa1dFZTB5dHc0aHc1blVveGh3aEhUWFhsYkNaUDVudjM5QzZHLU5nS2dLNVVQQVpHNDRYV09ibkE?oc=5",
-    "time": "2026-11-26T12:18+08:00"
-   },
-   {
-    "title": "台股止跌回升、3萬9關卡反覆拉鋸！「玻纖布大廠」爆量28萬張仍失守60元力積電狂飆6%成交量衝6萬張",
-    "source": "Yahoo股市",
-    "url": "https://news.google.com/rss/articles/CBMi3gNBVV95cUxPb18wM3BCR2lad3V3MjJSM2pYRVJTbDhfUHBINE9OdHpLdzB4NFk5SFJKOUtxc1pXY0F5V0pHR1I4ZFlpMldTZmV1MVVpV01lY21iRkc2SHBEcGVFNmVOQjktWmtUUFk2eldvRlFTSGZiTm14TzlZR2FXczA3dHVBeEdqRDk0TXFuUFJHOFdmT0RQWm5ONTNvZXlJdVhQcTN3NG8zS2pDbWNpZktSWnZQT1k1cHRKcFFTOHNzZllGTkRlVDQ5NFV1aFh3X3JZalBWRXNBajdvX1lDVV9BbGVYelQ1NU9xLXZfdUlCNXdrRHZUY3BVa0NEcFNrdDJfWWloTkJhY2RpaFhFemxSLUVEUXZLWU51YjNITVFFd0FJUVRiVHVoZE9oN192Q2hKYUxZemdRcnVtRTd1NHAwUDNwczNXb19wWmFxdXY4Tkw1bDZZTG9zMzVCY1pBblVBVDZ2anNBVjhqM1BBdE1NLTlBeG1mekF4YVFPbEFSUy15ODAtWEVZeHFwdVBmVUZMdjVlM1JnTWppYnFJVXd5cUk4SmtZRVFodlFzOGx1d0FmWktESzdmNDhsZDJ5eDhTeWM5NEl4UjVIMG5VVUtBYWtROC1qVF9CcTFPajJpeGJB?oc=5",
-    "time": "2026-11-26T12:02+08:00"
-   },
-   {
-    "title": "才和子瑜傳緋聞 許光漢爆變定延螢幕男友！大打出手「狠砸進蛋糕」",
-    "source": "噓！星聞",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBBRkRUaDQ4VHIwN1U1MFVFa3otNHd6WHhxeXVfLWlkdFRRdXVJaDUyamZLZ2NQMW9LT0VWcE5sSUZhU1NSYnQ0RHBvUVczcVRrUFUzWTJzUFJXZ9IBX0FVX3lxTE13eGhKLXZFNHIxZjhMVU5wcUMxV25WVVFSNUVESHh1emptZkMyc1FENjh2MDZOLXZBdWtMZ1RETjJ4UjNCVVhodHZMWVY0cENmMXB3NTdmNW9qNTUyQzdR?oc=5",
-    "time": "2026-11-26T11:17+08:00"
-   },
-   {
-    "title": "投票日各地晴朗！這天「全台有雨」週末急凍跌剩12度⭣",
-    "source": "Yahoo新聞",
-    "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxORVU5b1NKUk50NWV2WUJlWkZNZkNwczRNeWhzeFJnNHFHWDJSNktIZkFWS2V3WmlBelRFQmUtZXR2NHZQTGVqS1JMNDRQX1U2Nmc1VG1ObXZqX2FSZldRU3BBZXAxLXQzekNuQmNHUThBRnN3bktVQXZZNHUxSldhYW1uMmlXUG04cXBHWVNYZDNmWHlGQS0zbENaQ09vNXEzVWJDNGF4VnUxMWJuRUNacWRiS1h1R1hoR2x2OGFIeUNqenhfaWVuemgyX3NneXhXZ0hlSDkxak0yLW90MzduWElyNktBc0ctQnJwRHRMVUJQZG9iYkk3SjVleWx5YWtzWUMyV3E2MUwtWXVHY1NNc0loOHNlUVpOS0VBRS1pN1RjeHl3NlREN24wa3NETHBzb2o2M0RhV00teWRfSWNNWFVYUS0ta21XN3c?oc=5",
-    "time": "2026-11-26T11:03+08:00"
    }
   ],
   "taitung": [
+   {
+    "title": "選前最後一天 吳秀華請鄉親給她為台東打拚的機會",
+    "source": "自由時報",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0aTNLeC03ZlpDOWpselRoU251djlDMFZLdExYcWRCa21wdTVVejZEclVMLXR0Wmw2WlM0QmczbkJnX0NtU2szUEx4TENNeDRlSFpqdVRJd0diRDNwNF9ub2ZpaC1vT1JYaGfSAW9BVV95cUxNYjZqWFBoa180R2U5Z0tkbUJlaEtZelRjOVJNb0RNTWF2WlhESFNpM00yVFJTSjNCVWpGa3lFdk9tRzhpa3NBSEVmejBuSlJhRXplejlIcmlaNUxXcmhsQ0w4U2F6c1NHTnJCUXN2YTg?oc=5",
+    "time": "2026-11-27T10:01+08:00"
+   },
+   {
+    "title": "臺東地區指揮部配合教育部臺東聯絡處實彈射擊體驗、深化全民國防教育",
+    "source": "台東電子報",
+    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5ZWE5LY2tVTHlSSFJ5MG1TWXY5eDBGWlZmbXU3VUtFZG01dEU3VDJHd1p0OUo2M3c0NEwtVDVNSV9VdjhBX3YxU2VZZw?oc=5",
+    "time": "2026-11-27T09:44+08:00"
+   },
+   {
+    "title": "盼為每位出生孩子種一棵樹！彭啓明大力推薦陳瑩政見 | 自由電子報",
+    "source": "LINE TODAY",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBMOHRjLXN3TWZVdjVVYW5td2REblRkTDZkRlRVdnpybjcwbUVWZTZzTFlTbTNDZXpaampmSFJFOTRJeFNuTDVDQWJ2d1QtWFNiNW1OTUln?oc=5",
+    "time": "2026-11-27T08:33+08:00"
+   },
+   {
+    "title": "決戰九合一》 台東縣即時開票：誰領先？誰落後？議會席次現況一次看",
+    "source": "天下雜誌",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8wekdWUWFNSEduOUM3WVAzV1FmVkFqVnNLeWFwdkVUTXVXQ2RoblM1b2pVdmxTVWxHZVNtUXJMek1NQ0d1dngwNURtb3pBajRSSVEwMTBSbkpLV2ktS0RqamdlWDZmREZGZmY3di1wRUxsNFBkNzdXWG5zY3E?oc=5",
+    "time": "2026-11-27T03:36+08:00"
+   },
    {
     "title": "地震快報 最大震度台東縣4級",
     "source": "經濟日報",
@@ -459,33 +483,165 @@
     "source": "更生新聞網",
     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE44OEgtekRHMkpOZm01b0tHb2VsX01udzFnUjBoOGwyVTRvRExfdV9fc0NXdWF1ZnV1YmhMc0k0eXUxQzd5NWhPLXlR?oc=5",
     "time": "2026-11-26T15:42+08:00"
-   },
-   {
-    "title": "拚台東選戰！陳瑩承諾：不會因家族事務拖公務員下水",
-    "source": "民視新聞網",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5mdFA4eUloUEdLeUM0dklpWjhhNldkcW4xcmk2dl9EdlhVQTlibFdHUXlQcGhMTWUwc3A4WEdTRV9iNWI3YWFVc3c0NjJFakNqOHpmQmE3QzRfYnR2dkVKYw?oc=5",
-    "time": "2026-11-26T15:41+08:00"
-   },
-   {
-    "title": "全國首件！鹿野高台鄉村計畫核定 業者開發須回饋30％",
-    "source": "翻爆",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5QTU9MSzktYW5fejdYX05XejBDR1RzTXZtT29BOTQ5QUd3RWhuUUdNc2tJUVlVZXJvWHlubEJDcDFwWHo0YXRKQzd1TmVNVVVIU2ctU0JRdWxZbGpuU3N2cW52YXM0cldFLW9N?oc=5",
-    "time": "2026-11-26T15:40+08:00"
-   },
-   {
-    "title": "台東池上鄉調降路燈認養費 每盞每年500元、可任寫文字",
-    "source": "Yahoo新聞",
-    "url": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxNLTRWRGl1Y0hWZHpVOUFLS1VoR0w0YVlycXNZRmxsYVVPQXJLQ1NuZDBSXzVRVXNLODAyelBxd3A4cllndmFPXzlPeU9aTUhCRlF0TUVTNkMzQ01GYnpxNnp5d0RoNTdvOWxmWXJCQ2lkMF8wekNkUTUyTkFUdHRqMFVtalZRbURDSnBoTDhjOWtXbnhGVFJpSVBDNXBZRDg1ZFd6U3owT3NhVHJLOTkxYXB5OE5mRVJMdTZWOXM4YzVYdWZlcjZrREZKaHVwSG1DdHp1UnQ5elFXRnhKNHpjTENVMkVyTkpOcG1DSGk2OFdta2dORlJzUW4ySUU5dVRPUXFCd3p6U2NCejd0MW5OaGg1NE9seXp2cS1xVjNFMm5ocjR4WVY4b0pNdzEzaElibjBiTHNNQV9iUXROYVFWRmk4NVkwUWtjOGtXSkFFMWg1OF9MX05SVWdsQ2lFMC1zM1E?oc=5",
-    "time": "2026-11-26T15:39+08:00"
-   },
-   {
-    "title": "臺東客家學堂聖誕點燈 11/29共度溫馨午後",
-    "source": "Yahoo新聞",
-    "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQMkhaeHU2NVFUWVB0ZjNUalA2X2VxV0FkN1ZnM3VsZzJxR1U0WFBvLTBOckpDVl8zenlNVGFhNUVXUkRrNWZmQ1RsSkJVdGxqWUR2cElwYTRPWHdWTnlQeW5UMjV4QzNkWlpvRGNwcGQ4clVDMzFlRFNtWVd1clVvOEc4aVJiTHVYSDJabEFDcXNEWnE2UmJJUkYwQTVvWFRYenZDazBpandHRFpyNGc5aHFBeENMT2VTMUhQY1VqM2owRFFETDBPbGV5MkZSNDA1TklrdEpEYjZJNXFMYVBvbkYxYTM3c1prZWRveHFXeFhrMHBrUlQ4Q08xYXFGUENkekJwZ1V3UG9zdGNOZG8xQUxQNmNJMnZDTFI0?oc=5",
-    "time": "2026-11-26T15:32+08:00"
    }
   ],
   "taipei": [
+   {
+    "title": "九旬婦迷途診所 大安警耐心溝通化解「詐騙疑雲」",
+    "source": "臺北市政府全球資訊網",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVHFsMXp2dDdGMVl0XzFqTjZnZnZFOUV6WXI3SXJlNm44TEszWUE4ZHdSeGpaUWpiMDZabk10LWxjM0ROQ1VRcWtha2hYa2pSRVhVSEpCcngtWHE2UjY5b3NBUDJua29KTEd4cnhPMUc1angyMWEycTZrYkpKZkw2RXdwZjN0R2w2eG55R1k1cG1wc25qbno0NEpabGIyaW5x?oc=5",
+    "time": "2026-11-27T09:56+08:00"
+   },
+   {
+    "title": "投票日前夕韓國瑜空降臉書留言替「寶藏主任」許原榮催票| 2026九合一選舉",
+    "source": "UDN",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9RZEM0Qkt3T0NjdDY2eFFvZkhxWVV4RmIyY1lYc2VOSjJ2ejlEV3NpeXpHNkdwSEMtN3hSZThXcFZYeVN0QjhyTFhFenhZVlJxem5ydEJEbFo?oc=5",
+    "time": "2026-11-27T09:36+08:00"
+   },
+   {
+    "title": "直播》最後1天了！ 沈伯洋展開全台北市大車掃| 政治",
+    "source": "Newtalk新聞",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0U2k2UWlwUWlPTDJHV3ByeVp4ZWVtSkNWVFhSVUtLdEs2M3NJUmZFNWVkTXhYak1DVUtHbHpMNjFUUHg2VEVsaGRWMGx3dmQtTFplNV9GbGszVE0?oc=5",
+    "time": "2026-11-27T09:27+08:00"
+   },
+   {
+    "title": "臺北市71所學校推動藝術教育 促進跨域學習",
+    "source": "蕃新聞",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBmYXlMSkRyNS0waEVISm0wZ1pvOGRCdzRhZjNyUzZYSWx4VERPMHFzdGNSVGZIMEpfbERsOUlxVndLcGtjT08tTE1EZnZxTzZGNnc?oc=5",
+    "time": "2026-11-27T09:11+08:00"
+   },
+   {
+    "title": "質疑蔣萬安遭藍粉開罵 陳文茜刪文再發聲",
+    "source": "鏡週刊Mirror Media",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1Jb1czaEdpb01STERrb0dJb3RWRlpYa0paNS1XaXlhYjFXMU1jRHdBVTFqTzFrbHBZUGpZamY1QTM0V1NuX25HaHFJOEFCWFd6QlJRZWMxNkhrdUE0?oc=5",
+    "time": "2026-11-27T09:11+08:00"
+   },
+   {
+    "title": "宋楚瑜現身表態了！輔選「國民黨候選人」壓軸站台：支持連任",
+    "source": "TVBS新聞",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1CM2N1N0lyZ2pQeTY1NS1xYV9vTTZwcGgzLTZtLTNUdXJNcVNXVHFOelIzV05KbmtHT0ZHaUZDbElKSGZ2UThtaGlwMVBOQXhCcGRz?oc=5",
+    "time": "2026-11-27T08:47+08:00"
+   },
+   {
+    "title": "六都敬老卡福利大升級！明年起「最高每月領1500元津貼到死亡」， 符合資格靠卡就入帳",
+    "source": "Storm.mg",
+    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE53c1UwQzN5Q2J1VDVFMXJ0ODU4YXNFYW5ENnpyeHZrLUoxSC13NjZLVXhKSUdYNklRbTVUOG04MWpwTlZzMXZDOFdkSHFjQThs?oc=5",
+    "time": "2026-11-27T08:40+08:00"
+   },
+   {
+    "title": "房市冷氣團吹進台北市！預售最低單價重回6字頭　專家揭房價鬆動關鍵",
+    "source": "好房網News",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9PTGoybjdva1pOSzZJM1dpNTlpV3dCUlVkOGdMVkNSOFplQ21obHJpNE0zLU91QXF3aUlhRmJOanNSeHNqdXdzZmVIU0FCMHZDSzQtZG1ibzRGOVFrY2szVTdiVHlZQ0drUXQ00gFwQVVfeXFMTk1JZTJDTmhySEpQQmd5RVlPdzROYVZHU25nLV9Sei1nQWNpTlAtb183VDBpOFNtS1NlVEl2cWpqcEhDY2VtUHpVazR1UjJpQ192b0lFQmx0UGpvdFdHZkYwTEY0RDNTc1pDem9panV0LQ?oc=5",
+    "time": "2026-11-27T08:30+08:00"
+   },
+   {
+    "title": "寶特瓶、紙箱變身舞台服裝 心智障礙者環保時尚秀登場",
+    "source": "TCnews慈善新聞網",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9BbFhxdkt1anZKVHdfSkdCQmtCR2VPVVQ4bWxGYWZ6aWpPcGlGaVkxWUxUeHMzckhVYnJZeFg5T0RrU0FFeGZ6SHRncG5JMjFabHcwbXZXSzg1dw?oc=5",
+    "time": "2026-11-27T08:16+08:00"
+   },
+   {
+    "title": "贏30分到輸20分！她「這比喻」形容台北市選戰：已進入垃圾時間 | 自由電子報",
+    "source": "LINE TODAY",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMFRhbDVGRGR5WWp5cDhIdmZDQWZ2LXRmMmRkOEVMVmY2SlJpMUhUZlRHVEdEQXNONk1vaUxjYlpjN1psbHBvWjgwdk11c0JBbDcxV3lXWkdyOXk4TmxsZzlRNDJLR1RhV2xMa212S1hPN0Z3dlJpdWRwT19saTFtRjlkZEI?oc=5",
+    "time": "2026-11-27T08:13+08:00"
+   },
+   {
+    "title": "從一張紙看見教育的無限可能！臺北市深耕幼兒STEAM教育 讓孩子探索未來",
+    "source": "臺北市政府全球資訊網",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSDRISHlFR1FPODNhamZvOXN0WmRYY3RvWm1JNkJsZ2l2cnhIVmtBdkZEbVlITEVORFZvN0lkTzdfMDBqa1BKbDlLMDhqM09mSnE2ZHhKR2VNdHJvb01nSUpwTl9KcU11R3lpdEZ2VW1jTGk3NTRBTEhlRnpfVmdvNnFHbnl5RjRPSVByUEEtUXFkQ2tGb1ZxRnJwZWZYYjd2?oc=5",
+    "time": "2026-11-27T08:10+08:00"
+   },
+   {
+    "title": "秦慧珠民生社區辦感恩晚會　宋楚瑜獻唱力挺　肯定多年問政表現 | 政治 | CTWANT",
+    "source": "CTWANT",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBiUzcwVmF5WEV4UUpCZmRhVUJIZEJ2ZlMwZ3JVZUtMS0VSb1ZnRmViTGZmODhMLXdmdDVlVWdtc29GU1V2MTJhSG5LQk9fYkHSAVRBVV95cUxQMWNhN0hNc2JyQ0RuWlJLTHMyaXdHeXJhOXZIcFk1TklwVnhVZ3hvY0k5TGtWcnZmeDg5ZE04TEoybmt2SDdLZl9NRWF3TEM5NFh2ejc?oc=5",
+    "time": "2026-11-27T07:54+08:00"
+   },
+   {
+    "title": "台北市中山大同區3號李易儒需要你一票",
+    "source": "元丰傳媒",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9BdThoQXB6ZFMxUHduV3VqZ01WMFIxQUxDNV9rVjNhbEpXcTdFSTNHQy1Wa1Rqc245YW9yMDVPVE5MUXJZVkxRUWFaTlFmRmxiRGRaQWZaTFF0TWpjZWxqbUtyaHpMQ2Mx?oc=5",
+    "time": "2026-11-27T07:51+08:00"
+   },
+   {
+    "title": "2026 九合一選舉：老屋不都更還能怎麼辦？臺北市老宅延壽、電梯補助政見一次看",
+    "source": "果仁家",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBKTTdVeHZYRnlCdU83d1lkZDdHYnFVaHRpOElVcHRHQmcwWDdTN0w4cWRTRDdfeEpmY21FUHhjY1NROWdsdXVYMEZRaHNQUFVkczdB?oc=5",
+    "time": "2026-11-27T07:13+08:00"
+   },
+   {
+    "title": "臺北市榮獲國土署行人交通安全設施考核雙優等 全國唯一",
+    "source": "蕃新聞",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9POEVrZHVFbVZuSkVpZlBjS0lhMlJRa3ViRUtyYUQxb3VKSnJsYV9SVEl2QWVxWjI0MWEwdmFoS0V5MmV5TEdlb2hrNTZkMTNkVUE?oc=5",
+    "time": "2026-11-27T07:01+08:00"
+   },
+   {
+    "title": "《北市議員選戰》綠拚25＋1席 中山大同、松信告急",
+    "source": "自由時報",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE52SHhpTXBpdWJ4RGZfWGYxTVZrdWlJM2U0d2tleVh0dlJmVkFScV9BV19YOU4zX2EwWnQxd09hazU2Y0FnbW1Rb3NYUVI5cU9xQ1dxWDhHZl9BQ1RPWFkxeTNKc9IBY0FVX3lxTE52SHhpTXBpdWJ4RGZfWGYxTVZrdWlJM2U0d2tleVh0dlJmVkFScV9BV19YOU4zX2EwWnQxd09hazU2Y0FnbW1Rb3NYUVI5cU9xQ1dxWDhHZl9BQ1RPWFkxeTNKcw?oc=5",
+    "time": "2026-11-27T05:30+08:00"
+   },
+   {
+    "title": "《北市議員選戰》藍提31＋2席 小雞憂蔣萬安頻「貼白」分票",
+    "source": "自由時報",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB0RUNlOXc5czMxa2pPTUhpM0dqNVVUaWduODJLTDI4WW9sX2twOUVQa0otd1NCQmZ1LWlmaFJJdmRCSG10VTlGaWI4cFpvZ29QTDVuLTNqU2xPcGVVQmxKVHpjb9IBY0FVX3lxTFB0RUNlOXc5czMxa2pPTUhpM0dqNVVUaWduODJLTDI4WW9sX2twOUVQa0otd1NCQmZ1LWlmaFJJdmRCSG10VTlGaWI4cFpvZ29QTDVuLTNqU2xPcGVVQmxKVHpjbw?oc=5",
+    "time": "2026-11-27T05:30+08:00"
+   },
+   {
+    "title": "20萬人次熱烈響應！ 2026臺北大縱走最後倒數快衝刺",
+    "source": "臺北市政府全球資訊網",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdjkyRllxZTF5VnlGT2MzVGtCSnZ0NXhNMzBMOGQ2UXhUUk4wWEZLbm1YcnVMSTNqVnlCNEs4NngydjhzM3ZOX3YtV0ZNQW4wUnVkQ3pOdDdfV3lMM2ZIRWxFV3BUbER3Z0tUaWhSdFQzZHlVT0ZLdE03Y0RRODJPWFRLOWh0WENnNTdKWjd1QVgwU0xVZ0N4TV9aVG9mdTd3?oc=5",
+    "time": "2026-11-27T05:16+08:00"
+   },
+   {
+    "title": "鵝尾山梯田花海盛開 賞花一路到2027新年",
+    "source": "臺北市政府全球資訊網",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMF9NWnZQYzhzUjM4MmN3QTBFckJoSEZBYzZmT2t4c0VybGEtWjNiUV9IMDNmZnpPcVFoRXRubjdPUk4xWDBwZTJqUXo2dEgtZFJJZjNYV2EtVkNoazhPaHMzTkppcjVNa3pYdmM2Q2Rrc21yMnk3ZGxxbk1VQkdFNFFvcU11bkFnM011UFhIV1lHNnY0aXdYMl9UZVZVUUk0?oc=5",
+    "time": "2026-11-27T05:16+08:00"
+   },
+   {
+    "title": "秋意濃踏尋草山秘境 漫步紫明溪步道聽泉賞楓趣",
+    "source": "臺北市政府全球資訊網",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRjZ6clR0dkY5alFVWFBnSEtBTWx3SWczQkcySzJweUFrSjh5VFZBY1dPVnY3RzZueFN5MkNWUXNuRlhtcHRvbnFxR0EzcFdQZkVuNEEzX1BhTEg2VDhNdWR1ZloxWTJtTUVfZ3F6ZV9GSEdRTEZnNENZdUxOQ2FfcDZNc3NxUUp5R0sxUGJmS25NR3dLeXdlN01vd19tMmx0?oc=5",
+    "time": "2026-11-27T05:16+08:00"
+   },
+   {
+    "title": "決戰九合一》 台北市即時開票：誰領先？誰落後？議會席次現況一次看",
+    "source": "天下雜誌",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5IeENsTEoxek1lUlV3UWZLMFprNktCdlpVMkpIMWVaTk85dVZic1VXZWtobnhSbHUtYWp0R1VRMWprbFlzcEs4cXpUOHlyUTBiZmRiSGlFb29CV054aWE3SEVzbTZwc19oUE41dnN2MDcyMDZvaURueG1LVUQ?oc=5",
+    "time": "2026-11-27T03:36+08:00"
+   },
+   {
+    "title": "都更動輒拖8到10年？　專家揭大塞車關鍵",
+    "source": "ETtoday永續雲",
+    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5uZVJPTm80VkhRU0lhX1pWSG1qT25zUG5SNlNyVHlUN2tsRmkwTm5kUWJtZi1rZFFqTHFQUzZkNWNEX0x3MlhTQkxUTS3SAUtBVV95cUxNMy1DVGlpa2dTNWl3dGQwX3JGa3VSWnJMd0lqX0p5MjBHQlNTOGhhX25GOVpjSHJsd0RRYTRvbUN6U0NRSjg5NEFEa3M?oc=5",
+    "time": "2026-11-27T03:04+08:00"
+   },
+   {
+    "title": "最新消息-協助衛生福利部推廣「失智症防治照護政策綱領暨行動方案3.0」政策電子圖文說明資料",
+    "source": "臺北市政府交通局",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUklZUkJPWGthVTZxanBTUEpnVnZpNXVScW14V1lVRkduUUs4S1RBTmk4dFRGU2lxZXlDM3NKMEVRQU81dWhTWXhJMlhsVndtamhPMnlET19ZRmkxVWxiTEx0bVJJOUxiQXE2ei15YVpVTjJRMXdnbjF6em9mdUVYTnVRVzRIajNsSmRLZDJmaG54RVVWSHN1RU9IbjJrVTgy?oc=5",
+    "time": "2026-11-27T00:49+08:00"
+   },
+   {
+    "title": "圖輯｜台灣九合一選舉 台北市長之戰 「洋流」掃街",
+    "source": "集誌社",
+    "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNWnBnY0lSUkNGZm4tOFEtOVBGUEJFMEt5SUNSVGJUblFkc09nQmVWUXRaOVpFTTFGTTBGTnNrdGNMYnRia3BpcEhUU09IalVOcGJCU3VOZU56UkFwdHU1amNTTlVRRm56U0ZZOEVLSk9LT2ZyV2RfT2JIZE9abmk1WnpYb29TX2VWTFdBMTh1SVdEbTRBNXEyNW1SSFZJMHItYmY3aDBnc09QYnBNLVQyUTFyanZiR1V6azF4SWQ2aS0tQlZFbEVveGxRRU5BRmpQNnU4My1Wbl9WdVMxTk1MczViUGtzdUptbFIwYVJiMlF1U3c2bGtj?oc=5",
+    "time": "2026-11-27T00:44+08:00"
+   },
+   {
+    "title": "沈伯洋明全台北市大車掃！六處肥皂箱地點、時間看過來 | 太報",
+    "source": "LINE TODAY",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYm1VNGxCTDluMkQ5YkRSWWVfcjFRWlNZNS1ONEg3OHkxM0FPVkZPUUJUcVhzSkN2eU1ZUUlSMExmUDFCbFdQenZkRFBkSjJoSk5ucXIxS3h5SkFHT0pBako1REFfUXFMeVEwakphNU9tUnYtcy1wblAtLVpEZDVScnpnZGY?oc=5",
+    "time": "2026-11-26T23:10+08:00"
+   },
+   {
+    "title": "羅智強酸沈伯洋「舞台搭3天」 網揭北市府2年前跨年工安意外",
+    "source": "自由時報",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB4MjhDNndxaC1kVm9NRlFlMExZdzdMTFJ4a201c29oU1dLUUk2TnJCaWJBX1lNMlF2QkNBNm5OVGFicGZkbDlmaFUyTVpVNndGbm9BR0ljZ1dMdTV2aEd1WkVfT1kwNmI5aktOTThNNNIBb0FVX3lxTFB4MjhDNndxaC1kVm9NRlFlMExZdzdMTFJ4a201c29oU1dLUUk2TnJCaWJBX1lNMlF2QkNBNm5OVGFicGZkbDlmaFUyTVpVNndGbm9BR0ljZ1dMdTV2aEd1WkVfT1kwNmI5aktOTThNNA?oc=5",
+    "time": "2026-11-26T23:01+08:00"
+   },
    {
     "title": "臺北市政府警察局中正第一分局 公告",
     "source": "臺北市政府全球資訊網",
@@ -505,6 +661,12 @@
     "time": "2026-11-26T22:00+08:00"
    },
    {
+    "title": "作家廖玉蕙造謠 北檢應訊",
+    "source": "中華新聞雲／中華日報",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5xWmU2SUxFaUs1SjRILWprYXJocTFBakNZcm5QQllXUDh5OXdfRHlocmw0b25RVVZZOG5BRDlLLUVURXlyR2dQdWFCY3ppak5KVWc?oc=5",
+    "time": "2026-11-26T21:45+08:00"
+   },
+   {
     "title": "即時開票》2026決戰九合一：藍綠對決，誰能拿下六都大位？22縣市長得票版圖不斷更新",
     "source": "天下雜誌",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96aTZvQUxJZi11ZU5IU1NQTFRLWGhDMjN4dEFUWVZ5aHJCNXFzRERXbGhTdmxLOXpLdVVpNmVxLVJzUkdpNXJrd3BtNHNSMlltbzNCVFRmd0lWVDV4NFExOEVweGl6LWU0V1BJ?oc=5",
@@ -517,10 +679,22 @@
     "time": "2026-11-26T20:47+08:00"
    },
    {
+    "title": "林國漳「龜山島是回家的方向」飄帶北漂發送 台北市府轉運站現人龍 | 自由電子報",
+    "source": "LINE TODAY",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbkhmeG40ZXBfajhvTjctZTJIZjdaVU50VUc0SmllWk5yWmJNVmFEMFFPOEdzdlRGOVVGcDQyNUM1TjFNV2FEWGpJNThLQjBrOTQ1WElwS1ZNcmdCbWprbEhiQ3dFblkzNHhtdEJ5cjFTVTFsNFVEeXdxaHA1Z3lFLTJwcmo?oc=5",
+    "time": "2026-11-26T20:30+08:00"
+   },
+   {
     "title": "林國漳「龜山島是回家的方向」飄帶北漂發送 台北市府轉運站現人龍",
     "source": "自由時報",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9iVlpETEgxcHp0X1JOa1dBc0FNUHJ3bmh3elM1aTMxZFgwZ1pSQWtYRUlnMlUtTHdYdXRPbFRTemtNOHZpX0ZIQnVidHRWSXJKemExT3Y0cUpwOThPSU1ldkEybWx2RFNVU3fSAW9BVV95cUxNNWVPdG9IN25ZcXdoN29UMEtKMldZWms0OThqYkN0RkRtZTVxVEZ2UmYzMWVhZ0dSVmJFYzdaU3VfMER0UGRnNWpxb0JKS2N3ckVvNFB4VFliMWFxeDQ3a3hPOEpscXNXM012ZnJZTDQ?oc=5",
     "time": "2026-11-26T20:10+08:00"
+   },
+   {
+    "title": "台北預售屋驚見6字頭！最低單價一年降近10萬 專家揭低價原因 | 太報",
+    "source": "LINE TODAY",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAtZEd1Yks5UC16cXhwcS02M0ZSLVBuWms1c2xoanZnbzFRTldPZ1ZuQUFHVWYyMEowRVctRG04VmhYN0x1bXduUlF4YmNHWG1vOUJvSHdn?oc=5",
+    "time": "2026-11-26T19:36+08:00"
    },
    {
     "title": "臺北市政府澄清選前之夜集會路權申請流程無不公平情事",
@@ -541,12 +715,6 @@
     "time": "2026-11-26T18:30+08:00"
    },
    {
-    "title": "最新消息-協助衛生福利部推廣「失智症防治照護政策綱領暨行動方案3.0」政策電子圖文說明資料",
-    "source": "臺北市政府全球資訊網",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMVpJUTdkYndWbGJpbkhpa0ZWaldJUDgzN1YwN3BrZTh1MVh0TGd3MG9oTVJ0VUpuQ2JlTE5lNjFuTzIwcTZTVnVKUUVGaWtRZE1COG9qMjRQcm5SMHphY2JsN2x2UHAxR253NFdvNHpHUXlEOFZpQWFlaGpER3JaR3FKVllRNWNoUi0ydnlnUGNEMnJaa1NBN3BtemZmVnFx?oc=5",
-    "time": "2026-11-26T18:26+08:00"
-   },
-   {
     "title": "最新消息-臺北捷運局首辦AI創新競賽以智慧應用打造工作新解方",
     "source": "臺北市政府全球資訊網",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMUVQVTk1YndYSG5xeUw3SGZwemZvNU4xTlBHUG13ZVRUS1ZicE1NakhTb0t3TUJSUG5mVDlWSVY3RG9tYUFqM2dnT3hHQWFwclRDZy1qS2V5MVBEQUxBclRlUF8zOTJYT2JHdVBQR2h0dWJNelgyWUZNZ2ZrdEx5aHVNSlFGZllyeFp0eEdlZjhFNXMtSUZvdGcyWDgwdDdf?oc=5",
@@ -557,174 +725,6 @@
     "source": "臺北市政府全球資訊網",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZWNkcV9KUkxLYmJqQ1hVUnE2a1BCcXZIQjdmOWdLWWtUX3BzcW9QQ3hKZi0zc0pwcmpoTmRiTDZNbU50NlZsZmxNZmNtcFFYSmZqOFV2cGlNQUk5Ny1OVVVQdGxqWG0xSWpOczMwcG9FcU9xOTQyTlVOUGM1VUVRdmtpMlJ5dHB2UE9PUEpac3FTYS10YUM4Q2EzVkE4WHVY?oc=5",
     "time": "2026-11-26T18:13+08:00"
-   },
-   {
-    "title": "沈伯洋昔嗆台北市沒救！羅智強怒批：先跟市民道歉💢【鄉民監察院】精彩速看⚡20261125",
-    "source": "FTNN 新聞網",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5hbGFmWEVsSXdrS3VQN2J5NmhlNVhtVmZEaE51SllKZVlYN2I0dHZQNnJHRGh2NHdRcmowNk5ENmhDbFVCRmRaMFEyWk5ubjBaTnMyYlpkVkU?oc=5",
-    "time": "2026-11-26T18:12+08:00"
-   },
-   {
-    "title": "被點名卡沈伯洋北平東路場地 藍營候選人林杏兒喊告",
-    "source": "自由時報",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1fa09yVExlVnBsUXI2aHBQY1lENFd2RktoZmlZTnZKaTFmYTV0UmIxa0M0c1Z0dUtvMnpGSWVwMlNidEQyWnJNSHBfTDNxVUNaWXctelhXdXBVTWw2TWhPdVc4dzl5RnBZWFHSAW9BVV95cUxOaXdsV043SmxHV09ROVoxVmRWSUowaHFNY2NXeXY5SVloZU9PRk45VkUtMG4wSGV3OEtmcEdWVGhkY2ZDYm5XZWpQTENJdDZCcFprMzdGOWFjVHY3bzkyVWdyb0VncEZnVEJfSDZsakU?oc=5",
-    "time": "2026-11-26T17:47+08:00"
-   },
-   {
-    "title": "新北市前議員蔡明堂涉為子賄選遭聲押無保請回檢擬提抗告| 2026九合一選舉",
-    "source": "UDN",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBBWDBBb2FrZXl3SDJXY2lPMTVBelVZcmpnV0FsZ3RoN2VETndfOXk5WjE3b2M3U1cyc0NoOUpEV25pZzNMVkx4RmRzYWUzWHM4dHdCZnhR?oc=5",
-    "time": "2026-11-26T17:39+08:00"
-   },
-   {
-    "title": "競總前道路不到2秒就借走！ 簡舒培嗆就是卡沈伯洋更譏機器人搶路權| 政治",
-    "source": "Newtalk新聞",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9PQkh6LVZGN0VyR1lPUTNVanhBXzh4Q3pYZExiME8yaWpqb1FZOXh5MDlmNEpndVRwV0kzUjY1TmdLS1FKbTRORmxYQ1RJTW5VYTVHMHA0WUEzMGM?oc=5",
-    "time": "2026-11-26T17:28+08:00"
-   },
-   {
-    "title": "「臺北交通安心行計畫」學校專案成果",
-    "source": "臺北市政府全球資訊網",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQT3VpdVpIbC1FYktPRk4wR1lQWEJWcDNrRUhaY2xKcHJXOWprU1hiWXdMYTJvZXM1UmVjM1B0cC1MSVE4bVo1LTl5SExiMnlBcEY5VjhzSXRJQ3laOHFrR1FWTDE0MDg4QnU3a2MzUFB0b1oyQTlXb0F5MFhKU3owMDF0Q3M?oc=5",
-    "time": "2026-11-26T17:22+08:00"
-   },
-   {
-    "title": "沈伯洋婉拒台北市府路路權！ 稱來不及彩排 蔣萬安：一次封4天確實少見",
-    "source": "VOCO News",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1kMFhjX0ZzcG1wc0VYZEJMRUtod3JHdldCMkxMdWpKd080ZXdSWDN1RXNuNkR6Ym1PaFowcUlsOXVtNzdaTWFKTkJzcktBamdNeGthVW1tZFd5dEZYa3pr?oc=5",
-    "time": "2026-11-26T17:19+08:00"
-   },
-   {
-    "title": "沈伯洋競總前11/25、11/26路權遭神速搶下資料曝光 簡舒培：0.4秒、1.11秒就送件",
-    "source": "台灣好新聞",
-    "url": "https://news.google.com/rss/articles/CBMiuANBVV95cUxQZ1gxZWJUckdSWUpUaVAyT3VPdXZvLThUbGhMMlhMTWVxc1R1elNFeDd4YUhRdDZQTTd3aDhaVDBYUjBGcnlqNFpDeTZPXzdET1ZwNXRZLUhzNm91X2tCb1pLX1c1d0pwN2h1Q01FcUEwWE1OMENjT0RFc3ZvcXFiOTlBNG50R3IwYl90TXJfSFpMd3R0TGVzOTcxMWgzWDJkanluN3pZTjBRMGVQdnJJRklDZ1JndW82cjNCZ1Jfc2dBUUEyVEJoXzA0bl9SUlhMcmxxRjZoWWowNWxFbFJxbC1mTnpEeU0tV1VhTTBVcDN3Z0lkWk5iQUZnNlg5cktkOFFTRUozS1lJaTE3ZkRKN212M214dGRQYkVXMVZsV19qT0tmV3pwbThteXh6SkxEQk5HUTRfbHY1VkJYN3RGNE9WcXFiUVd0OWdBZjFVXzBWYkItRDFkSTFiR2xBVWF2dEtXdmVUaHBkSzVFV243azVuNWhyUmgxa1ppUG5wSEthcnloNjVmSndoYmhHYkxab2cxd3puUnlZcFJlVFJVekxwUEt2YU1uYWVscFl0MFJiazduSXp0dw?oc=5",
-    "time": "2026-11-26T17:04+08:00"
-   },
-   {
-    "title": "市府新聞稿-臺北市榮獲國土署行人交通安全設施考核雙優等全國唯一",
-    "source": "臺北市政府全球資訊網",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeFFyUXF5bkU0emx2RG13Z1pyQTk3OXY0LVZsV2FXZml0andtUkFHdWhMNjc2djFsSWhDUzN6UTgzUjFudmlJc0tMOHJnc1hXTjhjX3BPUmNQV3pmdVpFYWhRUXJ3OVppNVVrdHJ4R1Iydm1vT25zR2Myb3o0QkFCUmFaTlQ3VUs4VjZZZ18yaThnQ19RX202OUUyRHB1aHB3?oc=5",
-    "time": "2026-11-26T16:53+08:00"
-   },
-   {
-    "title": "市府新聞稿-AI賦能，接軌國際！臺北市旅宿業永續人才培訓結業，提升產業競爭力",
-    "source": "臺北市政府全球資訊網",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQY2hFbmZrWlgxQ3JKd0V0WFh2eWxiRmN1cHJfN21xMFdkZDVZQWUydjRUeTQzbjNDRHJIamk4U3NNTUNDT1dSWHFkSk5HYUNXblhKQWl4Q3JwLTZQdm9lbml6VkJCdlV4Q1RZQWxqLUhnX2QtajVya1BWZEZwZ3B4UDNjUWZtdVhrQmNpU2xjRVpBekIwM09KYWx3b2I5Z1hk?oc=5",
-    "time": "2026-11-26T16:53+08:00"
-   },
-   {
-    "title": "市府新聞稿-北市71校攜手藝術家，跨域點亮無限創「藝」",
-    "source": "臺北市政府全球資訊網",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZ2I1VmxCelhTNmtWTExzQ1owVzVVUF9YUGctVGd2WW40UTlSUjNQaFdCejRJODdzU055XzZZMnM5ZjNDZnZEN2plS0ljblFmeXJtT2xwUTNjOTFCbmd3a3Q3UUY4ZjRyZjJwV0FTUTFGZjdmeC1hY3ptME9EY1dXV2tZek9uOHNIcmZxYk1KZTctSGxIemhaS2M4Z0V0bXky?oc=5",
-    "time": "2026-11-26T16:53+08:00"
-   },
-   {
-    "title": "台北市選前之夜熱門場地不到1秒被搶走 新工處： 與往年無差異",
-    "source": "自由時報",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ucXBUN01jRkRZRTlYWlJGTnFLWWwzbU1vUlBucUt4X2w1ZUNKMS1lOUdnWi1neFJCaHRHM1JyTGdiaE5JbWFiM3Jha1BRM3MwRU92bFR1RU9KWjJoZXRtMmxNM1JUSnJfbEHSAW9BVV95cUxNNGFIeWYtSnhaUXBkeFVXX0tjZUowVG4xUFVfa0NzQTgwMDdia0VLMFVMMDFaR0lFYVZFVElfSlVxOV95RFg4YVBGOTJWNGw1NFBzMERkLUdITFNjamF6dFdpVjVMNmZxQ0xtVDFFRkE?oc=5",
-    "time": "2026-11-26T16:35+08:00"
-   },
-   {
-    "title": "「臺北交通安心行計畫」學校專案4年成果影片",
-    "source": "臺北市政府全球資訊網",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYWRaTWJpLW5fTzJWY2UxSWxjSFJmb3l2NlZvbGFVS1ZNckdibVVPSzdjQzhlZ1RiaFpMMFF1R3JuWUVYMXI5NEhCbG9YaFBTQU00QmVfeklZd0FUaGpwM3RjR2lUckJrRHhWcnNCb08wMVNlNUhaU0MwTTcxNmlhS1cyUlFFYXBhOUpGcGp3NGhDQS1ldHlWcENNOHJaZUpE?oc=5",
-    "time": "2026-11-26T16:27+08:00"
-   },
-   {
-    "title": "葫蘆國小-葫蘆寺攜手聯合報寫作教室 葫蘆國小孩子用文字寫出生活中的感動",
-    "source": "臺北市政府全球資訊網",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQXIxSjBaYUhKbi0wQ2hUZThESFJwcFozX0c2ZXpHenhvT2F1UVJYcWxSOW9WNUlUaTJfd2FlTE1QQXI0ZDc4ZWdMZTlnRFV6NU9UUU9kVENmZWtpQ2hZUWdQZy1DWkdpODhmcGsxZ3B3aHJ1WWFObVc3eXBBbzVrZjg5VWlXQjBsaFhPanJIbjlGR2ZCLUw4Ylc1QW9nalN2?oc=5",
-    "time": "2026-11-26T16:27+08:00"
-   },
-   {
-    "title": "廖玉蕙涉違選罷法偵訊後請回畫家夫護妻：她頭部受傷、不要問她| 2026九合一選舉",
-    "source": "UDN",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBiQmg4T0pzMmZSUVR2OU5vQlpSZ3A1YklfSXJYM2FwU0JlOW11SlFYUWtqQUdWcGxnZWdPQ2kxcDJuLXNEUTBEMVFIREZqbUJIZ051T253?oc=5",
-    "time": "2026-11-26T16:16+08:00"
-   },
-   {
-    "title": "本市無菸城市政策多國語言宣傳圖卡",
-    "source": "臺北市政府環境保護局",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb3JleHhDY1N2cV9Bd3dmbHFTWnBPMlNCb1FZZHZJQUx1cVllVG12bUJHWlF1QVhkN2xXWDhDaEFHRHdDUndDbU03aXFOWlZldXFLRVlrLV95MVoxbjR1Tl9nYktZWWlST3dLdWlHNEx3am11aThLWUE4bi1FUFZGT0x1QjVZODlIdEhTaUpIQXRpZ2NHSHd5dTJDRTVLY0t4Wm9rN0lR?oc=5",
-    "time": "2026-11-26T16:13+08:00"
-   },
-   {
-    "title": "童星劉致妤參選台北市議員罕談選舉風氣嘆息：有這麼嚴重嗎- 娛樂",
-    "source": "中時新聞網",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBxaE5OcmlzakM2WEFBVnlvWUNldHpzMTctQnZWU1JzVFVLTENhV3dlOWNJWVl2aEppd0k4clIyd01BZWQ5RWJCdXQydlJtQUQ2WjRVMVAzMFRNbTdSTTRqS254bFE5aUc1SXYtd3lB?oc=5",
-    "time": "2026-11-26T15:59+08:00"
-   },
-   {
-    "title": "童星劉致妤參選台北市議員罕談選舉風氣嘆息：有這麼嚴重嗎- 華人星光",
-    "source": "中時新聞網",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBxaE5OcmlzakM2WEFBVnlvWUNldHpzMTctQnZWU1JzVFVLTENhV3dlOWNJWVl2aEppd0k4clIyd01BZWQ5RWJCdXQydlJtQUQ2WjRVMVAzMFRNbTdSTTRqS254bFE5aUc1SXYtd3lB?oc=5",
-    "time": "2026-11-26T15:59+08:00"
-   },
-   {
-    "title": "臺北市勞動局啟動身心障礙者就業準備小教室課程 3年累計服務3,564人次",
-    "source": "蕃新聞",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE83MnpGVFBORmx0ekFtNExyTmQ4Mk5yaG5IOFg3ZmNaRXBDMXNuQlRQQXZHUU8yaEJ4cml0QWRPd002TGQySXBDSzRnaHBpLXhvdFE?oc=5",
-    "time": "2026-11-26T15:43+08:00"
-   },
-   {
-    "title": "【宣導】中央選舉委員會製作多語版「1128投票去」電視廣告及「禁止攜帶手機及防制AI深偽影音」宣導海報",
-    "source": "臺北市政府全球資訊網",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcVFWUDRsTGxUWUtzX2E1UFh0eXNqOWFqS0ZRYnBRR0tKSVNWbjVfQTlFTGRhY2hSOTJnNktPdDB2RE93eXVPQ0JsQWtpaFgyRlFtVkZseFYtN2NRUmNxWktJdnhwcTRELUNmRGlWRzVuS1A5YUkyVVhheXFmTG1HYlRGQ1JFWDRSUkVPNjRLcll5UXY1Y2hCNEx3YlVWMk5n?oc=5",
-    "time": "2026-11-26T15:26+08:00"
-   },
-   {
-    "title": "控垃圾車廣播「支持蔣萬安」 作家廖玉蕙挨告北檢首度傳喚",
-    "source": "鏡週刊Mirror Media",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5GeEF6aWlkT1ZJZWN5X2RMb0RuUEsxU0NEWk5zcS1vS0NCeG0yLUxldklQaTNRNU52XzhpN3JFd0ZjRGFHX3luaFZPOUlaUlRBSmdDeFYwbVBvTXFpOWtoSVhnUDJpZw?oc=5",
-    "time": "2026-11-26T15:11+08:00"
-   },
-   {
-    "title": "【透視國際線】國際媒體紛抵台！台北市「選前之夜」攻防戰",
-    "source": "新唐人電視台",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9CZkR2cnV4cHhTX2Zua3hRSUpQTk94SXNKMGpXT3BUaV9PYzlrdmtWQ0NBVUFBUzVlYzk3dXdha01QNmQ2SmVEZXRMT2FZeDl0Rzl4eDFSVUlIWXhqMENia9IBZkFVX3lxTFBLUlZ3c1Q2ZjFjemZ1YWZzd0t3ZnM0cVA0OG5kbHJiY2UwanZjS2J5emZXeVNVOUd6NFNJQjlYSkxjdmk2bUIydTV5RFdLQ0o3Vjg3VWxfTGwzejJXY2hTSUJOd2w2dw?oc=5",
-    "time": "2026-11-26T15:11+08:00"
-   },
-   {
-    "title": "期盼看見這樣的臺北市",
-    "source": "觀點傳媒 EYE SEE NEWs",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQeWZPbkh5eEtOcndEQnY1Q1NiaHNNelRmQmJBTVVOM0dPQnFnU3FaYVBBb3JJTlNNcHJNU0p4am5TcTc3MFZTUVFGWHZqaTlzTk1EQ1ZHNE5Sd1lJY3ROc3FkRnVDUVR6dDlEaGNFZ3ZmQ1BCc0dPTlZFV1h1YTkybjcxaUp4cEVHM0FXUE50Qm81ZmY0Z3ZCZUstNDNSM21pU2k5NEtVRUxWbjhQZGVvNUJzbUE2RTVMZGJDS2ZQSDZyUnNSRm5QVzlFd01VQQ?oc=5",
-    "time": "2026-11-26T14:49+08:00"
-   },
-   {
-    "title": "2026大選》民進黨北市議員選舉配票瀕失靈 中山大同4席小雞腹背受敵",
-    "source": "信傳媒",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE95cUZPWHY1RER1Q1BzQkMwUnNhTG9OMTh2cDFQV3RIbTc1OTU1UFl5ejBnQzFheExEN0Y0YmN5ZExiNGxfZDE0ekpMeWpZOGtITzhBdXRxeTFCUQ?oc=5",
-    "time": "2026-11-26T14:30+08:00"
-   },
-   {
-    "title": "沈伯洋指市府廣場不給借 北市府：禁選舉造勢行之有年",
-    "source": "LIFE 生活網",
-    "url": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxPZXUyNGNmNjBpeTRvc0ptUUduSnYwWmwzemlMNHNfell5RXNacThBWk9jRlJjenBRUml1YVp3eHdCRE53WDlVc0tPdExfbVRyS0NlN1lMeGZEYnJqbmhuMXZaWFhqV0g2OVAtcW8xdlZTai1vc1o5WUFuMEMtSEo4RVhYeW9nUkUyZ2d1UHNYVHBmR3JwNS1IWExYc2dNUjBzcV9tZndLZWxpRUFEY1hVck5KUy1PekVnRVc1OHRNWEZ2MTBtemZfV0JaS19YVUlCVVhjNTZfY2ZlaVlYVzh0WmFPQmIxU2RGVUp3Q3Bsbjg4QjlkVHlCdEhiX09WblN4SFlHSVp0eVNPdldtM2NiTFNjbmNHem0wWnBSbGUtQ01qRUctWFRFSFVieHNOdldCSHpCcmZCdnhBRHBhN3RjVWE5YmlUNnRwaUFCNktPRzh3RUxTalBNR1BfM3d5dw?oc=5",
-    "time": "2026-11-26T14:29+08:00"
-   },
-   {
-    "title": "金龍路路面更新完成 道路更平坦、通行更安全",
-    "source": "臺北市政府全球資訊網",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObWJpdGpxcmNqajV6RGhjNVlHX1FJajhIalNYRGQ2NHB2ekhhb1MxV3ZHZ3BkSXBjdFZwQ3IyRllTdDllQjdZQVJrbWw1b1h0OW9aaTFXZWI0b09LeHppeEoyLVIweS1uRVE0c0otdWNrLWY1Z3NxNGIwRnlHZnlOYnFwSDlGMzJraTBQcWJVR2JXT3dDZ1U0cEM0b3JUMlpj?oc=5",
-    "time": "2026-11-26T14:26+08:00"
-   },
-   {
-    "title": "活動主題館-十二月臺北花博農民市集農情耶誕花博傳情",
-    "source": "臺北市政府全球資訊網",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUW9sRGxORlV1YjBNVWxXN0NQNDJyZGRnTV9pYm5PcWdBRllzZHF2UzAyVzRJS2Q4X2RYR0l4eldac0xwOEJWZjZUTUtVWEdOZTFiOHdrOTVndGI2ZVEwQmlnS09SczFOcGNod291T1BLanJqcGMtWEpiR0Y5Q3V2cTU4bUM0V3ZUSG9wVGplVGNWMnZaS2huZkE3eUVGSGE0?oc=5",
-    "time": "2026-11-26T14:21+08:00"
-   },
-   {
-    "title": "謊指垃圾車廣播替蔣萬安拉票北檢今首度傳喚作家廖玉蕙| 2026九合一選舉",
-    "source": "udn",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE84emZyNVVncGRIQkV0T0h0dkZ0Uk9vamVWa01hNUtkVFE2bG9lTGFoMlVnZmc4dUlOSnkwb0ZiN0JHZ09RZF9CRTNpZHFLQzFSTUZWb2s0eWQ?oc=5",
-    "time": "2026-11-26T14:21+08:00"
-   },
-   {
-    "title": "廖玉蕙「渾身綠」現身！爆垃圾車助選蔣萬安挨告北檢首度傳喚- 社會新聞",
-    "source": "PChome Online 新聞",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNeWQ5SDItZkdSVlZsWW12NDFNb3JZVjhtdUtaYVEyWlVhdmVXVmE4VThJdUNrU21tQWF2cFVMWTJGcXllcE9WWFB1WUpITVdHTmVaQmtaUkNOOUtCamhDNDRQZ25Ydkw4ZlgyenpRVFVLVFNYanRPWnhtdjlONDB3VTNoVXdtV3JtWEE?oc=5",
-    "time": "2026-11-26T14:20+08:00"
    }
   ]
  }
